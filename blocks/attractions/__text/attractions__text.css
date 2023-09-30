@@ -1,0 +1,11 @@
+.attractions__text {
+  text-align: justify;
+  margin: 10px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 984px) {
+  .attractions__text {
+    margin-bottom: 25px;
+  }
+}

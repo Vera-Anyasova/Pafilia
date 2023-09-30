@@ -1,0 +1,13 @@
+.footer__element {
+  width: 40%;
+  max-width: 100%;
+  object-fit: cover;
+  max-height: 100%;
+  z-index: 20;
+}
+
+@media screen and (max-width: 525px) {
+  .footer__element {
+    width: 55%;
+  }
+}

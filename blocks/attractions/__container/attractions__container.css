@@ -1,0 +1,22 @@
+.attractions__container {
+  max-width: 100%;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .attractions__container {
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .attractions__container {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}

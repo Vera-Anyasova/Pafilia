@@ -1,0 +1,30 @@
+.infrastructure {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin: 120px 50px 100px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .infrastructure {
+    justify-content: space-between;
+    margin: 90px 50px 40px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .infrastructure {
+    margin: 50px 25px;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .infrastructure {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    margin: 30px 0 20px;
+  }
+}

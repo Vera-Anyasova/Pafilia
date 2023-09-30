@@ -1,0 +1,19 @@
+.infrastructure__text-place {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 30px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .infrastructure__text-place {
+    margin: 20px 0;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .infrastructure__text-place {
+    margin-bottom: 0;
+  }
+}

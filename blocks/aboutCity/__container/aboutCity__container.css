@@ -1,0 +1,22 @@
+.aboutCity__container {
+  max-width: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px 50px 0;
+  justify-content: center;
+  padding: 0;
+}
+
+@media screen and (max-width: 984px) {
+  .aboutCity__container {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .aboutCity__container {
+    max-width: 90%;
+    margin: 0 auto 5px;
+  }
+}

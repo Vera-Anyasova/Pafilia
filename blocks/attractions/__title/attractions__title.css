@@ -1,0 +1,19 @@
+.attractions__title {
+  max-width: 300px;
+  margin: 25px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .attractions__title {
+    max-width: 900px;
+    font-size: 30px;
+    margin: 20px 0 10px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .attractions__title {
+    text-align: center;
+  }
+}

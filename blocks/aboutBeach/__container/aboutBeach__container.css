@@ -1,0 +1,18 @@
+.aboutBeach__container {
+  max-width: 1120px;
+  display: grid;
+  grid-template-columns: 57% 20% 20%;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 984px) {
+  .aboutBeach__container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 700px));
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

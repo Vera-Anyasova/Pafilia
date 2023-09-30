@@ -1,0 +1,24 @@
+.map__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 30px 10px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .map__list {
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .map__list {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .map__list {
+    margin-bottom: 10px;
+  }
+}

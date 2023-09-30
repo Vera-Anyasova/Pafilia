@@ -1,0 +1,25 @@
+.elements {
+  display: grid;
+  grid-template-columns: 5% 85% 5%;
+  gap: 10px;
+  margin: 50px 20px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .elements {
+    margin: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .elements {
+    margin: 30px 15px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .elements {
+    margin: 20px 8px;
+  }
+}

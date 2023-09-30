@@ -1,0 +1,26 @@
+.advantage__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.advantage__item:last-of-type {
+  grid-column: span 2;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .advantage__item {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .advantage__item:last-of-type {
+    grid-column: span 1;
+    justify-content: flex-start;
+  }
+}

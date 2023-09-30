@@ -1,0 +1,23 @@
+.aboutPlace__item {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  gap: 5px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 984px) {
+  .aboutPlace__item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .aboutPlace__item {
+    gap: 10px;
+  }
+}

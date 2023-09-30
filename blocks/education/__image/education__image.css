@@ -1,0 +1,35 @@
+.education__image {
+  width: 100%;
+  max-width: 40%;
+  max-height: 100%;
+  min-height: 300px;
+  object-fit: cover;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 1280px) {
+  .education__image {
+    max-width: 42%;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .education__image {
+    max-width: 45%;
+    min-height: 250px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .education__image {
+    max-width: 48%;
+    min-height: 180px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .education__image {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+.header__menu {
+  background: url(../../../images/menu-btn.png) no-repeat;
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  background-size: contain;
+  object-fit: cover;
+  border: 0;
+  padding: 0;
+  margin: 14px 0 0;
+}
+
+.header__menu:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1184px) {
+  .header__menu {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .header__menu {
+    width: 33px;
+    height: 33px;
+  }
+}

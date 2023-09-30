@@ -1,0 +1,27 @@
+.element__prev {
+  width: 60px;
+  min-height: 100px;
+  background: url(../../../images/icon-next-1.png) no-repeat center;
+  background-size: contain;
+  border: none;
+  transform: rotate(-180deg);
+  padding: 0;
+  margin: 0;
+}
+
+.element__prev:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 984px) {
+  .element__prev {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .element__prev {
+    width: 25px;
+  }
+}

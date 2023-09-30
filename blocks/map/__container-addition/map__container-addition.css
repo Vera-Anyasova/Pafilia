@@ -1,0 +1,10 @@
+.map__container-addition {
+  display: none;
+}
+
+@media screen and (max-width: 715px) {
+  .map__container-addition {
+    display: flex;
+    margin-bottom: 8px;
+  }
+}

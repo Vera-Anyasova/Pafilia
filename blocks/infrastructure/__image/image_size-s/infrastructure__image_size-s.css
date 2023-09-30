@@ -1,0 +1,16 @@
+.infrastructure__image_size-s {
+  padding: 0;
+}
+
+@media screen and (max-width: 715px) {
+  .infrastructure__image_size-s {
+    justify-self: center;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .infrastructure__image_size-s {
+    width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.aboutPlace__image {
+  width: 230px;
+  height: 230px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aboutPlace__photo:last-of-type {
+  margin-right: 0;
+}

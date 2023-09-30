@@ -1,0 +1,33 @@
+.attractions__place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  padding: 0 70px 0 0;
+  margin: 0;
+  height: fit-content;
+}
+
+@media screen and (max-width: 1184px) {
+  .attractions__place {
+    max-width: 100%;
+    width: 60%;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .attractions__place {
+    max-width: 90%;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .attractions__place {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

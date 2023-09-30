@@ -1,0 +1,9 @@
+.map__subtitle-addition {
+  display: block;
+}
+
+@media screen and (max-width: 715px) {
+  .map__subtitle-addition {
+    display: none;
+  }
+}

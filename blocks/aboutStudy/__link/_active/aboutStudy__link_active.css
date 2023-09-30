@@ -1,0 +1,11 @@
+.aboutStudy__link_active {
+  display: none;
+}
+
+@media screen and (max-width: 984px) {
+  .aboutStudy__link_active {
+    display: block;
+    text-decoration: underline;
+    padding-left: 10px;
+  }
+}

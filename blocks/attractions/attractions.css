@@ -1,0 +1,28 @@
+.attractions {
+  max-width: 1280px;
+  padding: 100px 60px;
+  display: flex;
+  justify-content: center;
+  background-color: #f8fafb;
+  margin: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .attractions {
+    padding: 80px 50px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .attractions {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .attractions {
+    padding: 40px 0;
+  }
+}

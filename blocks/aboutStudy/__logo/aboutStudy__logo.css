@@ -1,0 +1,14 @@
+.aboutStudy__logo {
+  max-width: 400px;
+  min-height: 100px;
+  background: url(../../../images/logo2.jpg) no-repeat;
+  background-size: contain;
+  margin: 0 0 20px;
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutStudy__logo {
+    max-width: 350px;
+    margin-bottom: 10px;
+  }
+}

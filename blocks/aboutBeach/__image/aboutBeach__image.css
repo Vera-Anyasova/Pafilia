@@ -1,0 +1,18 @@
+.aboutBeach__image {
+  width: 100%;
+  height: 250px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  margin: 10px 0 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 984px) {
+  .aboutBeach__image {
+    margin-top: 0;
+  }
+}

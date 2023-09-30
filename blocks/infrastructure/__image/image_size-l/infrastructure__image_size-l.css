@@ -1,0 +1,11 @@
+.infrastructure__image_size-l {
+  grid-row-start: span 2;
+  justify-content: center;
+  align-self: center;
+}
+
+@media screen and (max-width: 984px) {
+  .infrastructure__image_size-l {
+    display: none;
+  }
+}

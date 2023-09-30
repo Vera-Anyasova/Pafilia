@@ -1,0 +1,20 @@
+.aboutPlace__image {
+  width: 230px;
+  height: 230px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+  border-radius: 2px;
+}
+
+.aboutPlace__photo:last-of-type {
+  margin-right: 0;
+}
+
+.aboutPlace__image:hover {
+  transform: scale(1.15);
+  z-index: 10;
+}

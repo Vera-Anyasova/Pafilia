@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mesto</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__item">
+        <div class="header__logo"></div>
+        <button
+          class="header__menu"
+          type="button"
+          aria-label="Меню."
+          value="Меню"
+        ></button>
+      </div>
+    </header>
+    <main class="content">
+      <section class="profile">
+        <div class="profile__place">
+          <div class="profile__photo"></div>
+          <div class="profile__container"></div>
+          <div class="profile__element"></div>
+        </div>
+      </section>
+      <section class="aboutProject">
+        <h1 class="section__title aboutProject__title" id="aboutProject">
+          Знаковый проект в самом центре тур-зоны Пафоса
+        </h1>
+        <div class="aboutProject__item">
+          <p class="section__text aboutProject__text">
+            Представляем новый комплекс роскошных апартаментов в сердце
+            туристического Пафоса. Pafilia Plaza находится в самой
+            востребованной и престижной части города и всего в нескольких шагах
+            от лазурного Средиземного моря. Изысканные апартаменты обеспечат
+            непревзойденное качество жизни, благодаря удобствам, предлагаемым
+            инфраструктурой комплекса и города.
+          </p>
+          <img src="./images/photo1.png" alt="Изображение комплекса апартаментов." class="aboutProject__image">
+        </div>
+        <div class="aboutProject__place">
+          <h2 class="section__subtitle aboutProject__subtitle">
+            Уникальное месторасположение, широкие возможности
+          </h2>
+          <p class="section__text aboutProject__text-place">
+            Представьте себе, что вы просыпаетесь, ощущая нежный морской бриз,
+            любуетесь захватывающим видом на море, а на досуге прогуливаетесь по
+            чистейшим песчаным пляжам. Ваша квартира находится среди этого
+            великолепия, а современный дизайн и внимание к мельчайшим деталям
+            превращают её в оазис элегантности и комфорта.
+          </p>
+        </div>
+      </section>
+      <section class="description">
+        <img src="./images/photo-item3.png" alt="Восьмиэтажные здания проекта Pafilia Plaza." class="description__image">
+        <div class="description__place">
+          <h2 class="section__title description__title">Pafilia Plaza</h2>
+          <p class="section__text description__text">
+            Восьмиэтажный проект Pafilia Plaza будет виден из любого района
+            Пафоса, а элегантная современная архитектура и центральное
+            расположение сделает его знаковым для города.
+          </p>
+          <p class="section__text description__text">
+            Апартаменты Pafilia Plaza отличают просторные гостиные, панорамное
+            остекление и фантастические виды на море, археологический парк, маяк
+            и порт Пафоса, которыми вы сможете наслаждаться в комфорте
+            просторной веранды. Вы окунётесь в мир роскоши прибрежного образа
+            жизни, где шум прибоя и красота моря станут неотъемлемой частью
+            вашей повседневной жизни.
+          </p>
+        </div>
+      </section>
+      <section class="advantage">
+        <h2 class="advantage__title section__title" id="advantage">Основные характеристики</h2>
+        <ul class="advantage__list">
+          <li class="advantage__item">
+            <div class="advantage__element advantage__element_one"></div>
+            <span class="advantage__text section__text"
+              >Уникальное месторасположение</span
+            >
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__element advantage__element_two"></div>
+            <span class="advantage__text section__text"
+              >Фантастические панорамные виды на море</span
+            >
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__element advantage__element_three"></div>
+            <span class="advantage__text section__text"
+              >Плавательный бассейн и оборудованные зоны отдыха</span
+            >
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__element advantage__element_four"></div>
+            <span class="advantage__text section__text"
+              >Просторные балконы и крытые террасы
+            </span>
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__element advantage__element_five"></div>
+            <span class="advantage__text section__text"
+              >Два скоростных лифта в каждом блоке
+            </span>
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__element advantage__element_six"></div>
+            <span class="advantage__text section__text"
+              >Подогрев полов в каждой квартире</span
+            >
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__element advantage__element_seven"></div>
+            <span class="advantage__text section__text"
+              >Скрытая система кондиционирования и обогрева VRV</span
+            >
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__element advantage__element_eight"></div>
+            <span class="advantage__text section__text"
+              >Подземный паркинг и частные парковочные места</span
+            >
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__element advantage__element_nine"></div>
+            <span class="advantage__text section__text">Кладовые комнаты</span>
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__element advantage__element_ten"></div>
+            <span class="advantage__text section__text"
+              >Высококачественные материалы и отделка</span
+            >
+          </li>
+          <li class="advantage__item">
+            <div class="advantage__element advantage__element_eleven"></div>
+            <span class="advantage__text section__text"
+              >Коммерческая инфраструктура на нижних этажах
+            </span>
+          </li>
+        </ul>
+      </section>
+      <section class="aboutPlace" id="aboutPlace">
+          <h2 class="section__title aboutPlace__title">Апартаменты и пентхаусы</h2>
+          <p class="section__text aboutPlace__text">
+            Все апартаменты и пентхаусы отделаны согласно высоким стандартам качества с применением самых современных материалов. Роскошные спецификации включают полы с подогревом, скрытые энерго-эффективные системы кондиционирования  VRV, кухни итальянского дизайна с поверхностями из кориана – всё в ключе современной минималистической эстетики.
+          </p>
+          <ul class="aboutPlace__container">
+              <li class="aboutPlace__photo aboutPlace__photo_size-l"></li>
+              <li class="aboutPlace__photo aboutPlace__photo_size-m"></li>
+              <li class="aboutPlace__photo aboutPlace__photo_size-s"></li>
+          </ul>
+      </section>
+      <section class="aboutPrice">
+          <ul class="aboutPrice__container">
+            <li class="aboutPrice__item">
+              <p class="aboutPrice__text aboutPrice__text-big">Студии и апартаменты с 1 сп.</p>
+              <p class="aboutPrice__text">от 50 кв.м.&nbsp&nbsp</p>
+              <p class="aboutPrice__text">Цены от €206,000 + НДС</p>
+            </li>
+            <li class="aboutPrice__item">
+              <p class="aboutPrice__text">Апартаменты с 2 сп.</p>
+              <p class="aboutPrice__text">от 120 кв.м.</p>
+              <p class="aboutPrice__text">Цены от €475,000 + НДС</p>
+            </li>
+            <li class="aboutPrice__item">
+              <p class="aboutPrice__text">Апартаменты с 3 сп.</p>
+              <p class="aboutPrice__text">от 194 кв.м.</p>
+              <p class="aboutPrice__text">Цены от €900,000 + НДС</p>
+            </li>
+          </ul>
+      </section>
+      <section class="infrastructure">
+          <div class="infrastructure__place">
+            <img src="./images/photo-8.png" class="infrastructure__image infrastructure__image_size-m">
+            <img src="./images/photo-9.png" class="infrastructure__image infrastructure__image_size-l">
+            <img src="./images/photo-7.png" class="infrastructure__image infrastructure__image_size-s">
+          </div>
+          <div class="infrastructure__item">
+            <h2 class="section__title infrastructure__title">Plaza</h2>
+            <p class="section__text infrastructure__text">
+            На цокольных этажах Pafilia Plaza будет располагаться инфраструктура для отдыха и жизни, включая тренажерный зал, кафе и бутики.
+            </p>
+            <p class="section__text infrastructure__text">
+            В комплексе предусмотрен элегантный общий бассейн и зоны отдыха, окруженные садами и специально разработанным ландшафтом.
+            </p>
+            <p class="section__text infrastructure__text-place">Это настоящее воплощение мечты о современной жизни в городе во всей её красе.</p>
+          </div>
+      </section>
+      <section class="video" id="video">
+        <div class="video__container">
+          <h2 class="section__title video__title">Почувствуйте атмосферу города</h2>
+          <div class="video__icon"></div>
+          <iframe class="video__iframe" type="text/html" src="https://drive.google.com/file/d/1jIjNwWYH0ffFU1R9qFmXd00CzrLVVxIW/preview" allow="autoplay" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </section>
+      <section class="map">
+        <h2 class="section__title map__title" id="infrastructure">Достопримечательности и городская инфраструктура</h2>
+        <img src="./images/map-icon-1.png" alt="Карта достопримечательностей Пафоса." class="map__card">
+        <div class="map__place">
+          <div class="map__main map__main_active">
+            <h3 class="section__subtitle map__subtitle map__subtitle">Достопримечательности</h3>
+            <ol class="map__list">
+              <li class="map__item">Замок Пафоса</li>
+              <li class="map__item">Археологический парк</li>  
+              <li class="map__item">Римские мозаики</li> 
+              <li class="map__item">Гробницы королей</li> 
+              <li class="map__item">Центр города</li> 
+            </ol>
+            <h3 class="section__subtitle map__subtitle map__subtitle-addition">Уникальная локация</h3>
+            <ul class="map__container map__container-main">
+              <li class="map__item">Торговый центр 3мин</li>
+              <li class="map__item">Центр города 6мин</li>  
+              <li class="map__item">Отели 4мин</li> 
+              <li class="map__item">Шоссейная дорога 10мин</li> 
+              <li class="map__item">Пляж и променад 4мин</li> 
+              <li class="map__item">Отделение банка 3мин</li>  
+              <li class="map__item">Порт Пафоса 3мин</li> 
+              <li class="map__item">Аэропорт Пафоса 12мин</li> 
+              <li class="map__item">Аэропорт Ларнаки 80мин</li> 
+              <li class="map__item">Горы Тродос 73мин</li> 
+              <li class="map__item">Лимассол 40мин</li> 
+              <li class="map__item">Никосия 95мин</li> 
+            </ul>
+            <ul class="map__container">
+              <li class="map__elements">
+                <image src="./images/icon-school.png" alt="Иконка." class="map__icon">
+                <p class="map__text">Частные школы</p>
+              </li>
+              <li class="map__elements">
+                <image src="./images/icon-shop.png" alt="Иконка." class="map__icon">
+                <p class="map__text">Супермаркеты</p>
+              </li>
+              <li class="map__elements">
+                <image src="./images/icon-clinic.png" alt="Иконка." class="map__icon">
+                <p class="map__text">Клиники</p>
+              </li>
+            </ul>
+          </div>
+        </div> 
+      </section>
+      <section class="map">
+        <img src="./images/map-8.png" alt="Окрестности Пафоса" class="map__vicinity">
+      </section>
+      <section class="map">
+        <img src="./images/map10.jpg" alt="Окрестности Пафоса" class="map__vicinity-place">
+      </section>
+      <section class="elements" id="plan">
+        <button type="button" class="element__prev" aria-label="Предыдущий слайд."></button>
+        <div class="elements__list" id="elements__list">
+            <img src="./images/map/map11.jpg" alt="Генеральный план" class="element__image">
+            <img src="./images/map/map12.jpg" alt="Цокольный этаж" class="element__image">
+            <img src="./images/map/map13.jpg" alt="Первый этаж" class="element__image">
+            <img src="./images/map/map14.jpg" alt="Второй этаж" class="element__image">
+            <img src="./images/map/map15.jpg" alt="Третий этаж" class="element__image">
+            <img src="./images/map/map16.jpg" alt="Четвертый этаж" class="element__image">
+            <img src="./images/map/map17.jpg" alt="Пятый этаж" class="element__image">
+            <img src="./images/map/map18.jpg" alt="Шестой этаж" class="element__image">
+            <img src="./images/map/map19.jpg" alt="Седьмой этаж" class="element__image">
+        </div>
+        <button type="button" class="element__next" aria-label="Следующий слайд."></button>
+        </div>
+      </section>
+      <section class="cover">
+        <h2 class="section__title cover__title">Пафос</h2>
+      </section>
+      <section class="aboutCity">
+        <div class="aboutCity__container" id="city">
+          <h3 class="aboutCity__subtitle">Пафос</h3>
+          <h2 class="section__title aboutCity__title">Город красоты</h2>
+          <p class="section__text aboutCity__text">Пафос с его очаровательной гаванью и средневековой крепостью предлагает космополитическую жизнь, захватывающие пейзажи и богатое историческое достояние. В древности на протяжении 600 лет этот город был столицей Кипра, а его археологическое наследие так велико, что ЮНЕСКО включила весь город целиком в список Всемирного культурного наследия.</p>
+        </div>
+        <div class="aboutCity__images">
+          <image src="./images/place1.jpg" alt="Морское побережье." class="aboutCity__image">
+          <image src="./images/place2.jpg" alt="Гавань на берегу моря." class="aboutCity__image-element">
+        </div>
+      </section>
+      <section class="attractions">
+        <div class="attractions__place">
+          <img src="./images/place3.jpg" alt="Древнее каменное здание." class="attractions__image">
+          <img src="./images/place5.jpg" alt="Древние высокие колонны." class="attractions__image attractions__image-big">
+          <img src="./images/place4.jpg" alt="Древние руины и колонны." class="attractions__image">
+        </div>
+        <div class="attractions__container">
+          <h3 class="aboutCity__subtitle attractions__subtitle">Пафос</h3>
+          <h2 class="section__title attractions__title">Объект всемирного наследия ЮНЕСКО</h2>
+          <p class="section__text attractions__text">Путешествуйте во времени, исследуя Пафос – объект Всемирного наследия ЮНЕСКО, город с богатейшей историей. Посетите мифологическое место рождения древней богини любви Афродиты, проведите день в замечательном археологическом парке Пафоса с его уникальными римскими мозаиками и руинами древних дворцов. Откройте для себя скрытые сокровища, как например, Королевские гробницы, где c древних времён покоятся особы голубых кровей, или замок Пафоса, расположившийся в живописной гавани со времен средневековья.</p>
+        </div>
+      </section>
+      <section class="aboutBeach">
+        <h3 class="aboutCity__subtitle aboutBeach__subtitle">Пафос</h3>
+        <ul class="aboutBeach__container">
+         <li class="aboutBeach__item">
+            <p class="section__text aboutBeach__text">Очарование исторического Пафоса удачно дополняется множеством потрясающих пляжей. Кристально чистые бирюзовые воды Средиземного моря манят освежиться и позагорать на золотистых пляжах. Разнообразие пляжей захватывает дух – ищете вы спокойный отдых, атмосферу пляжных баров или полные адреналина приключения водного спорта – в Пафосе есть все. Попробуйте свои силы в виндсерфинге, подводном плавании или просто расслабляйтесь, наслаждаясь ласковыми волнами и свежим морским бризом.</p>
+            <image src="./images/place11.jpg" alt="Морское побережье." class="aboutBeach__image aboutBeach__image_big">
+         </li>
+         <li class="aboutBeach__item">
+          <ul class="aboutBeach__place">
+            <li class="section__text aboutBeach__text">Замок Пафоса</li>
+            <li class="section__text aboutBeach__text">Камень Афродиты</li>
+            <li class="section__text aboutBeach__text">Археологический парк</li>
+            <li class="section__text aboutBeach__text">Римские мозаики</li>
+            <li class="section__text aboutBeach__text">Гробницы королей</li>
+          </ul>
+          <image src="./images/place12.jpg" alt="Песчанный пляж." class="aboutBeach__image aboutBeach__image_middle">
+         </li>
+         <li class="aboutBeach__item">
+          <ul class="aboutBeach__place">
+            <li class="section__text aboutBeach__text">Пляж Coral Bay</li>
+            <li class="section__text aboutBeach__text">Заповедник Akamas</li>
+            <li class="section__text aboutBeach__text">ТЦ Kings Avenue Mall</li>
+            <li class="section__text aboutBeach__text">Традиционные деревушки</li>
+            <li class="section__text aboutBeach__text">Винодельни</li>
+          </ul>
+          <image src="./images/place13.jpg" alt="Терасса с видом на море." class="aboutBeach__image aboutBeach__image_small">
+         </li>
+        </ul>
+      </section>
+      <section class="aboutPlace aboutPlace-city">
+        <div class="aboutPlace-city__container">
+          <h2 class="section__title aboutPlace__title aboutPlace__title-city">Средиземноморский образ жизни</h2>
+          <p class="section__text aboutPlace-city__text">Пафос предлагает очаровательный средиземноморский образ жизни. Погрузитесь в непринужденную и яркую атмосферу города, где время замедляется и, кажется, создано для отдыха и удовольствия. Наслаждайтесь неторопливыми прогулками по живописной набережной, откройте для себя пляжные бары. Множество кафе, ресторанов и баров, где вы можете насладиться ароматом свеже-сваренного кофе или аппетитными блюдами традиционной кипрской кухни, ждут вас.
+          </p>
+          <p class="section__text aboutPlace-city__text">Район Старого города полон очарования и представляет собой лабиринт узких извилистых улочек с традиционными кипрскими зданиями, украшенными яркими ставнями и цветущей бугенвиллией. Здесь есть оживленный рынок, где можно приобрести изделия местных ремесленников, свежие продукты и традиционные деликатесы. 
+          </p>
+          <p class="section__text aboutPlace-city__text">Пафос – отличное место для отдыха и жизни, где удивительным образом сочетается история, культура и подлинное местное очарование.
+          </p>
+        </div>
+        <ul class="aboutPlace__item">
+          <li class="aboutPlace__image aboutPlace__image_one"></li>
+          <li class="aboutPlace__image aboutPlace__image_two"></li>
+          <li class="aboutPlace__image aboutPlace__image_three"></li>
+          <li class="aboutPlace__image aboutPlace__image_four"></li>
+          <li class="aboutPlace__image aboutPlace__image_five"></li>
+        </ul>
+      </section>
+      <section class="aboutStudy" id="study">
+        <div class="aboutStudy__container">
+          <h3 class="aboutCity__subtitle aboutStudy__subtitle">Пафос</h3>
+          <h2 class="section__title aboutStudy__title">Среднее образование</h2>
+          <div class="aboutStudy__logo"></div>
+          <p class="section__text aboutStudy__text">The International School of Paphos зарегистрирована в Министерстве образования и культуры Кипра в 1987 году. У школы прочные связи с Британским Советом и она является  официальным экзаменационным центром двух крупнейших экзаменационных систем в Англии: Edexcel и CIE (Cambridge International Examination).
+          </p>
+          <p class="section__text aboutStudy__text">Школа следует Английской национальной учебной программе, при этом учитывая особенности местной культуры и требования Министерства образования Кипра. В 2006 году школа переехала в новый кампус, где созданы отличные условия для занятий, отдыха и развлечений. Обучение в школе делится на 3 этапа – детский сад, начальная школа и средняя школа. 
+          </p>
+          <a href="https://www.paphosinternationalschool.com/" target="_blank" class="aboutStudy__link">www.paphosinternationalschool.com</a>
+        </div>  
+        <img src="./images/photo-10.jpg" alt="Здание школы." class="aboutStudy__image">
+        <a href="https://www.paphosinternationalschool.com/" target="_blank" class="aboutStudy__link aboutStudy__link_active">www.paphosinternationalschool.com</a>
+      </section>
+      <section class="aboutStudy aboutStudy__school">
+        <div class="aboutStudy__container">
+          <h3 class="aboutCity__subtitle aboutStudy__subtitle">Пафос</h3>
+          <h2 class="section__title aboutStudy__title">Среднее образование</h2>
+          <div class="aboutStudy__logo-school"></div>
+          <p class="section__text aboutStudy__text">Aspire предлагает национальную учебную программу Великобритании, ведущую к получению квалификаций GCSE, IGCSE и уровня A, которые позволят автоматом поступать в любой университет Великобритании и США. Обучение проводится квалифицированными и опытными преподавателями из Англии и других стран.</p>
+          <p class="section__text aboutStudy__text">Школа отличается камерностью, значительным международным разнообразием по составу классов и относительно строгой дисциплиной. Обучение делится на 3 этапа – детский сад, начальная школа и средняя школа.</p>
+          <a href="https://aspireschool.ac.cy/" target="_blank" class="aboutStudy__link">www.aspireschool.ac.cy</a>
+        </div>  
+        <img src="./images/photo-11.jpg" alt="Здание школы." class="aboutStudy__image aboutStudy__image-school">
+        <a href="https://aspireschool.ac.cy/" target="_blank" class="aboutStudy__link aboutStudy__link_active">www.aspireschool.ac.cy</a>
+      </section>
+      <section class="education">
+        <h3 class="aboutCity__subtitle education__subtitle">Пафос</h3>
+        <h2 class="section__title education__title">Высшее образование</h2>
+        <p class="section__text education__text">Пафос предлагает широкие возможности для получения высшего образования. Благодаря гостеприимной атмосфере, высокому качеству жизни и первоклассному образованию, Пафос стал популярным направлением для студентов со всего мира. В городе расположены различные университеты и колледжи, такие как American University of Beirut, Neapolis University Pafos и Cyprus University of Technology. Кампусы оснащены по последнему слову техники, в городе развивается динамичное студенческое сообщество. Пафос – это идеальное место для получения всестороннего и полноценного высшего образования в безопасной и комфортной среде.</p>
+        <div class="education__item">
+          <img src="./images/photo-12.jpg" alt="Здание вуза." class="education__image">
+          <img src="./images/photo-13.jpg" alt="Здание вуза." class="education__image education__image-place">
+        </div>  
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <img src="./images/photo-element.png" alt="Логотип Pafilia Plaza." class="footer__element"></div>
+      </div> 
+      <p class="footer__copyright">Pafilia © 2023</p>
+    </footer>
+    <div class="popup">
+      <div class="popup__container">
+        <button
+          type="button"
+          class="popup__button"
+          aria-label="Закрыть изображение."
+        ></button>
+        <ul class="popup__menu">
+          <a href="#aboutProject" class="popup__link"><li class="section__text popup__text">О проекте</li></a>
+          <a href="#advantage" class="popup__link"><li class="section__text popup__text">Основные характеристики</li></a>
+          <a href="#aboutPlace" class="popup__link"><li class="section__text popup__text">Апартаменты и пентхаусы</li></a>
+          <a href="#video" class="popup__link"><li class="section__text popup__text">Видеообзор</li></a>
+          <a href="#infrastructure" class="popup__link"><li class="section__text popup__text">Достопримечательности и инфраструктура</li></a>
+          <a href="#plan"class="popup__link" ><li class="section__text popup__text">Генеральный план проекта</li></a>
+          <a href="#city" class="popup__link"><li class="section__text popup__text">Пафос - город для комфортной жизни</li></a>
+          <a href="#study"class="popup__link" ><li class="section__text popup__text">Об образовании</li></a>
+        </ul>
+      </div>
+    </div>
+   <script src="./pages/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.aboutStudy__subtitle {
+  margin: 0;
+}
+
+@media screen and (max-width: 984px) {
+  .aboutStudy__subtitle {
+    align-self: center;
+  }
+}

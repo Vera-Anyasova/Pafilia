@@ -1,0 +1,16 @@
+.attractions__subtitle {
+  margin: 25px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .attractions__subtitle {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .attractions__subtitle {
+    text-align: center;
+  }
+}

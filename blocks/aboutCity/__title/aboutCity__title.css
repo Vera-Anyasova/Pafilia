@@ -1,0 +1,13 @@
+.aboutCity__title {
+  text-transform: none;
+  margin: 25px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 715px) {
+  .aboutCity__title {
+    margin: 0 0 15px;
+    font-size: 32px;
+    align-self: center;
+  }
+}

@@ -1,0 +1,41 @@
+.aboutBeach__item {
+  max-height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 984px) {
+  .aboutBeach__item {
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .aboutBeach__item:nth-of-type(2) {
+    flex-direction: row;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .aboutBeach__item:nth-of-type(3) {
+    flex-direction: row;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .aboutBeach__item:nth-of-type(2) {
+    flex-direction: column;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .aboutBeach__item:nth-of-type(3) {
+    flex-direction: column;
+    justify-self: center;
+  }
+}
