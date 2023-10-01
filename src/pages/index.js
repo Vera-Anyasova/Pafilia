@@ -99,8 +99,8 @@ buttonOpenPopup.addEventListener("click", function () {
 
 // Закрытие попапа при клике на ссылку
 
-links.forEach((link) => {
-  link.addEventListener("click", function () {
+links.forEach((item) => {
+  item.addEventListener("click", function () {
     closePopup(popup);
   });
 });
