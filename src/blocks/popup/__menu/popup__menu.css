@@ -4,11 +4,14 @@
   justify-content: center;
   list-style: none;
   gap: 15px;
+  margin: 0;
+  padding: 0 20px;
 }
 
 @media screen and (max-width: 984px) {
   .popup__menu {
     gap: 18px;
+    padding: 0 15px;
   }
 }
 
