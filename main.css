@@ -85,7 +85,7 @@
 /*!**********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/elements/elements.css ***!
   \**********************************************************************************************************************************************************/
-.elements{display:grid;gap:10px;grid-template-columns:5% 85% 5%;margin:50px 20px;padding:0}@media screen and (max-width:1184px){.elements{margin:40px 20px}}@media screen and (max-width:984px){.elements{margin:30px 15px}}@media screen and (max-width:715px){.elements{grid-template-columns:5% 79% 5%;margin:20px 8px}}
+.elements{display:grid;gap:10px;grid-template-columns:5% 85% 5%;margin:50px 20px;padding:0}@media screen and (max-width:1184px){.elements{margin:40px 20px}}@media screen and (max-width:984px){.elements{margin:30px 15px}}@media screen and (max-width:715px){.elements{gap:0;grid-template-columns:5% 76% 5%;margin:20px 0}}
 /*!******************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/hidden/hidden.css ***!
   \******************************************************************************************************************************************************/
@@ -401,11 +401,11 @@
 /*!*********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/element/__next/element__next.css ***!
   \*********************************************************************************************************************************************************************/
-.element__next{background:url(d30d891708a468d33697.png) no-repeat 50%;background-size:contain;border:none;margin:0;min-height:100px;padding:0;width:60px}.element__next:hover{cursor:pointer;opacity:.7}@media screen and (max-width:984px){.element__next{width:40px}}@media screen and (max-width:715px){.element__next{margin-left:-15px;width:25px}}
+.element__next{background:url(d30d891708a468d33697.png) no-repeat 50%;background-size:contain;border:none;margin:0;min-height:100px;padding:0;width:60px}.element__next:hover{cursor:pointer;opacity:.7}@media screen and (max-width:984px){.element__next{width:40px}}@media screen and (max-width:715px){.element__next{width:25px}}
 /*!***********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/element/__image/element__image.css ***!
   \***********************************************************************************************************************************************************************/
-.element__image{border-radius:0;-o-object-fit:contain;object-fit:contain;width:100%}
+.element__image{border-radius:0;-o-object-fit:contain;object-fit:contain;width:100%}@media screen and (max-width:715px){.element__prev{margin:0 5px 0 15px}}
 /*!*******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/cover/__title/cover__title.css ***!
   \*******************************************************************************************************************************************************************/
