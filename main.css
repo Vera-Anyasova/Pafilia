@@ -29,7 +29,7 @@
 /*!******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/aboutProject.css ***!
   \******************************************************************************************************************************************************************/
-.aboutProject{align-items:center;box-sizing:border-box;display:flex;justify-content:center;margin:50px 0;padding:0;width:100%}@media screen and (max-width:984px){.aboutProject{margin:20px 0}}
+.aboutProject{align-items:center;box-sizing:border-box;display:flex;gap:70px;justify-content:center;margin:50px;padding:0;width:100%}@media screen and (max-width:984px){.aboutProject{margin:20px 0}}
 /*!******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject-place/aboutProject-place.css ***!
   \******************************************************************************************************************************************************************************/
@@ -149,7 +149,7 @@
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__item/aboutProject__item.css ***!
   \*******************************************************************************************************************************************************************************/
-.aboutProject__item{display:flex;flex-direction:column;justify-content:flex-start;margin:0 50px 100px;padding:0}@media screen and (max-width:984px){.aboutProject__item{margin:0 25px 50px}}@media screen and (max-width:715px){.aboutProject__item{align-items:center;flex-direction:column;justify-content:center;margin:0 0 50px}}
+.aboutProject__item{display:flex;flex-direction:column;justify-content:flex-start;margin:0 0 100px;padding:0}@media screen and (max-width:984px){.aboutProject__item{margin:0 25px 50px 0}}@media screen and (max-width:715px){.aboutProject__item{align-items:center;flex-direction:column;justify-content:center;margin:0 0 50px}}
 /*!*********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__title/aboutProject__title.css ***!
   \*********************************************************************************************************************************************************************************/
@@ -157,7 +157,7 @@
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__text/aboutProject__text.css ***!
   \*******************************************************************************************************************************************************************************/
-.aboutProject__text{margin:0 70px 0 0;max-width:500px;padding:0;text-align:justify}@media screen and (max-width:1184px){.aboutProject__text{margin-right:50px}}@media screen and (max-width:984px){.aboutProject__text{margin-right:30px;max-width:400px}}@media screen and (max-width:715px){.aboutProject__text{margin:0 0 20px;max-width:90%}}
+.aboutProject__text{margin:0 30px 0 0;max-width:500px;padding:0;text-align:justify}@media screen and (max-width:1184px){.aboutProject__text{margin-right:50px}}@media screen and (max-width:984px){.aboutProject__text{margin-right:30px;max-width:400px}}@media screen and (max-width:715px){.aboutProject__text{margin:0 0 20px;max-width:90%}}
 /*!*********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__image/aboutProject__image.css ***!
   \*********************************************************************************************************************************************************************************/
@@ -169,7 +169,7 @@
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject-place/__text/aboutProject-place__text.css ***!
   \*******************************************************************************************************************************************************************************************/
-.aboutProject-place__text{font-size:20px;margin:0;max-width:950px;padding:0;text-align:center}@media screen and (max-width:1184px){.aboutProject-place__text{font-size:18px;max-width:900px}}@media screen and (max-width:984px){.aboutProject-place__text{font-size:17px;margin:0 20px;max-width:700px;text-align:justify}}@media screen and (max-width:715px){.aboutProject-place__text{font-size:16px;margin:0 10px;max-width:90%}}
+.aboutProject-place__text{margin:0;max-width:950px;padding:0;text-align:center}@media screen and (max-width:1184px){.aboutProject-place__text{max-width:900px}}@media screen and (max-width:984px){.aboutProject-place__text{margin:0 20px;max-width:700px;text-align:justify}}@media screen and (max-width:715px){.aboutProject-place__text{margin:0 10px;max-width:90%}}
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/description/__image/description__image.css ***!
   \*******************************************************************************************************************************************************************************/
