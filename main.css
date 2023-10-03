@@ -29,7 +29,7 @@
 /*!******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/aboutProject.css ***!
   \******************************************************************************************************************************************************************/
-.aboutProject{box-sizing:border-box;display:flex;justify-content:space-between;margin:70px 50px;padding:0}@media screen and (max-width:1184px){.aboutProject{margin:50px 30px}}@media screen and (max-width:984px){.aboutProject{flex-direction:column;gap:20px;gap:15px;margin:35px 20px;margin:30px auto;margin:25px auto;width:90%}}@media screen and (max-width:715px){.aboutProject{width:100%}}
+.aboutProject{box-sizing:border-box;display:flex;justify-content:space-between;margin:70px 50px;padding:0}@media screen and (max-width:1184px){.aboutProject{margin:50px 30px}}@media screen and (max-width:984px){.aboutProject{flex-direction:column;gap:15px;margin:25px auto;width:90%}}@media screen and (max-width:715px){.aboutProject{width:100%}}
 /*!******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject-place/aboutProject-place.css ***!
   \******************************************************************************************************************************************************************************/
@@ -41,7 +41,7 @@
 /*!************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/advantage/advantage.css ***!
   \************************************************************************************************************************************************************/
-.advantage{background-color:#f8fafb;margin:0 auto;padding:60px}@media screen and (max-width:984px){.advantage{padding:30px}}@media screen and (max-width:715px){.advantage{display:flex;flex-direction:column;justify-content:center;padding:25px 15px}}
+.advantage{background-color:#f8fafb;margin:0 auto;padding:0}@media screen and (max-width:1184px){.advantage{margin:50px 30px}}@media screen and (max-width:984px){.advantage{margin:25px auto}}@media screen and (max-width:715px){.advantage{display:flex;flex-direction:column;justify-content:center;padding:25px 15px}}
 /*!**************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace/aboutPlace.css ***!
   \**************************************************************************************************************************************************************/
