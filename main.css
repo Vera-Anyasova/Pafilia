@@ -149,7 +149,7 @@
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__item/aboutProject__item.css ***!
   \*******************************************************************************************************************************************************************************/
-.aboutProject__item{display:flex;flex-direction:column;justify-content:flex-start;margin:0 0 100px;max-width:48%;padding:0}@media screen and (max-width:984px){.aboutProject__item{flex-direction:column;margin-bottom:0;max-width:100%}}@media screen and (max-width:715px){.aboutProject__item{margin:0 auto;max-width:90%}}
+.aboutProject__item{display:flex;flex-direction:column;justify-content:flex-start;margin:0;max-width:48%;padding:0}@media screen and (max-width:984px){.aboutProject__item{flex-direction:column;margin-bottom:0;max-width:100%}}@media screen and (max-width:715px){.aboutProject__item{margin:0 auto}}
 /*!*********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__title/aboutProject__title.css ***!
   \*********************************************************************************************************************************************************************************/
@@ -157,7 +157,7 @@
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__text/aboutProject__text.css ***!
   \*******************************************************************************************************************************************************************************/
-.aboutProject__text{margin:0;padding:0;text-align:justify}.aboutProject__text:nth-of-type(2){padding-top:20px}@media screen and (max-width:715px){.aboutProject__text{margin:0}.aboutProject__text:nth-of-type(2){padding-top:15px}}
+.aboutProject__text{margin:0;padding:0;text-align:justify}.aboutProject__text:nth-of-type(2){padding-top:20px}@media screen and (max-width:715px){.aboutProject__text{margin:0 auto;max-width:90%}.aboutProject__text:nth-of-type(2){padding-top:15px}}
 /*!*********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__image/aboutProject__image.css ***!
   \*********************************************************************************************************************************************************************************/
@@ -317,7 +317,7 @@
 /*!*********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/video/__iframe/video__iframe.css ***!
   \*********************************************************************************************************************************************************************/
-.video__iframe{align-self:center;height:315px;margin:30px 0;padding:0;width:560px}@media screen and (max-width:1184px){.video__iframe{align-self:center;margin:15px 0 20px;padding:0}}@media screen and (max-width:984px){.video__iframe{height:413px;width:550px}}@media screen and (max-width:715px){.video__iframe{height:240px;width:320px}}
+.video__iframe{align-self:flex-start;box-sizing:border-box;height:315px;margin:40px 0 0;max-height:100%;max-width:100%;padding:0;width:560px}@media screen and (max-width:984px){.video__iframe{align-self:center;margin:20px 0}}
 /*!*************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/map/__card/map__card.css ***!
   \*************************************************************************************************************************************************************/
