@@ -16,6 +16,6 @@
 
 @media screen and (max-width: 715px) {
   .aboutPlace {
-    margin: 30px 10px 10px;
+    margin: 30px auto 10px;
   }
 }

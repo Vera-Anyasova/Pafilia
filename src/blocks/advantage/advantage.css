@@ -1,8 +1,8 @@
 .advantage {
   background-color: #f8fafb;
   margin: 0;
-  padding: 60px;
-  margin: 0 auto;
+  padding: 70px 50px;
+  margin: 0;
 }
 
 @media screen and (max-width: 984px) {

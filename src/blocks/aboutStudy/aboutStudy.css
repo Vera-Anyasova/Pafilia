@@ -1,18 +1,16 @@
 .aboutStudy {
   display: flex;
-  margin: 100px 60px 120px;
-  justify-content: center;
-  gap: 70px;
+  margin: 70px 50px;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1184px) {
   .aboutStudy {
-    margin: 100px 40px;
-    gap: 50px;
+    margin: 50px 30px;
   }
 }
 
-@media screen and (max-width: 984px) {
+/* @media screen and (max-width: 984px) {
   .aboutStudy {
     flex-direction: column;
     margin: 60px 20px 80px;
@@ -23,5 +21,20 @@
 @media screen and (max-width: 715px) {
   .aboutStudy {
     margin: 40px 0 50px;
+  }
+} */
+
+@media screen and (max-width: 984px) {
+  .aboutStudy {
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    margin: 25px auto;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .aboutStudy {
+    width: 100%;
   }
 }

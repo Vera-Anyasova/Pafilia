@@ -2,15 +2,16 @@
   list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  column-gap: 80px;
+  row-gap: 40px;
   justify-content: center;
   margin: 0;
   padding: 0;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 1184px) {
   .advantage__list {
-    gap: 30px;
+    gap: 40px;
   }
 }
 

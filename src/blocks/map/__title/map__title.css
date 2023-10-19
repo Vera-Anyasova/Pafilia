@@ -1,8 +1,8 @@
 .map__title {
   max-width: 900px;
-  font-size: 32px;
-  line-height: 1.4;
-  margin: 30px auto 10px;
+  /* font-size: 32px;
+  line-height: 1.4; */
+  margin: 30px auto 20px;
   padding: 0;
   text-align: center;
 }

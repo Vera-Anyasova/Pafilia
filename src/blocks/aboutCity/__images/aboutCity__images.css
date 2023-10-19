@@ -1,12 +1,33 @@
 .aboutCity__images {
-  max-width: 550px;
-  width: 100%;
-  min-height: 100%;
-  display: flex;
-  justify-content: space-between;
+  width: 47%;
+  box-sizing: border-box;
+  /* display: grid;
+  grid-template-columns: minmax(100px, 1fr);
+  gap: 16px; */
+  /* width: 100%;
+  min-height: 100%; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(282px, max-content)); */
+  gap: 15px;
+  /* justify-content: space-between; */
 }
 
 @media screen and (max-width: 984px) {
+  .aboutCity__images {
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 715px) {
+  .aboutCity__images {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+} */
+
+/* @media screen and (max-width: 984px) {
   .aboutCity__images {
     max-width: 400px;
     flex-direction: column;
@@ -18,5 +39,14 @@
 @media screen and (max-width: 715px) {
   .aboutCity__images {
     max-width: 715px;
+  }
+} */
+
+@media screen and (max-width: 715px) {
+  .aboutCity__images {
+    grid-template-columns: 1fr;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
   }
 }

@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 715px) {
   .aboutStudy__title {
+    max-width: 90%;
     margin: 15px 0 0;
   }
 }

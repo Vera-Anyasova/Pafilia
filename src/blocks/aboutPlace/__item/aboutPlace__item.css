@@ -18,6 +18,8 @@
 
 @media screen and (max-width: 715px) {
   .aboutPlace__item {
-    gap: 10px;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
 }

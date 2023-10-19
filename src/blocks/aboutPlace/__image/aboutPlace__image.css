@@ -1,6 +1,6 @@
 .aboutPlace__image {
   width: 230px;
-  height: 230px;
+  min-height: 230px;
   max-width: 100%;
   max-height: 100%;
   margin: 0;
@@ -17,4 +17,29 @@
 .aboutPlace__image:hover {
   transform: scale(1.15);
   z-index: 10;
+}
+
+@media screen and (max-width: 715px) {
+  .aboutPlace__image {
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 425px) {
+  .aboutPlace__image {
+    width: 425px;
+    height: 400px;
+  }
+} */
+
+@media screen and (max-width: 715px) {
+  .aboutPlace__image:hover {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .aboutPlace__image {
+    border-radius: 0;
+  }
 }

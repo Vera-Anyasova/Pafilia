@@ -4,13 +4,13 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 50px 40px;
+  margin: 70px 50px;
   z-index: 1;
 }
 
 @media screen and (max-width: 1184px) {
   .map {
-    margin: 40px;
+    margin: 50px 30px;
   }
 }
 

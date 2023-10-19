@@ -6,6 +6,7 @@
 @import url(../blocks/content/content.css);
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/aboutProject/aboutProject.css);
+@import url(../blocks/aboutProject-place/aboutProject-place.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/advantage/advantage.css);
 @import url(../blocks/aboutPlace/aboutPlace.css);
@@ -37,10 +38,11 @@
 @import url(../blocks/aboutProject/__item/aboutProject__item.css);
 @import url(../blocks/aboutProject/__title/aboutProject__title.css);
 @import url(../blocks/aboutProject/__text/aboutProject__text.css);
-@import url(../blocks/aboutProject/__text-place/aboutProject__text-place.css);
-@import url(../blocks/aboutProject/__place/aboutProject__place.css);
+@import url(../blocks/aboutProject/__select/aboutProject__select.css);
 @import url(../blocks/aboutProject/__image/aboutProject__image.css);
-@import url(../blocks/aboutProject/__subtitle/aboutProject__subtitle.css);
+@import url(../blocks/aboutProject/__place/aboutProject__place.css);
+@import url(../blocks/aboutProject-place/__title/aboutProject-place__title.css);
+@import url(../blocks/aboutProject-place/__text/aboutProject-place__text.css);
 @import url(../blocks/description/__image/description__image.css);
 @import url(../blocks/description/__place/description__place.css);
 @import url(../blocks/description/__title/description__title.css);
@@ -131,6 +133,7 @@
 @import url(../blocks/aboutStudy/__logo/aboutStudy__logo.css);
 @import url(../blocks/aboutStudy/__text/aboutStudy__text.css);
 @import url(../blocks/aboutStudy/__link/aboutStudy__link.css);
+@import url(../blocks/aboutStudy/__images/aboutStudy__images.css);
 @import url(../blocks/aboutStudy/__image/aboutStudy__image.css);
 @import url(../blocks/aboutStudy/__school/aboutStudy__school.css);
 @import url(../blocks/aboutStudy/__logo-school/aboutStudy__logo-school.css);
@@ -141,6 +144,7 @@
 @import url(../blocks/education/__item/education__item.css);
 @import url(../blocks/education/__image/education__image.css);
 @import url(../blocks/education/__image-place/education__image-place.css);
+@import url(../blocks/education/__image-neapolis/education__image-neapolis.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__element/footer__element.css);
 @import url(../blocks/footer/__logo/footer__logo.css);

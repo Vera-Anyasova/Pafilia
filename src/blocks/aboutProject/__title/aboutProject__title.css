@@ -1,20 +1,21 @@
 .aboutProject__title {
-  max-width: 600px;
-  text-align: center;
-  margin: 10px 0 70px;
+  max-width: 440px;
+  text-align: left;
+  margin: 0 0 60px;
   padding: 0;
 }
 
 @media screen and (max-width: 984px) {
   .aboutProject__title {
     max-width: 450px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-self: center;
   }
 }
 
 @media screen and (max-width: 715px) {
   .aboutProject__title {
-    max-width: 70%;
     margin-bottom: 25px;
   }
 }

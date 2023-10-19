@@ -1,0 +1,9 @@
+.education__image-neapolis {
+  display: none;
+}
+
+@media screen and (max-width: 715px) {
+  .education__image-neapolis {
+    display: flex;
+  }
+}

@@ -1,34 +1,48 @@
 .video__iframe {
-  margin: 60px 0;
-  padding: 0 0 0 80px;
-  width: 640px;
-  height: 480px;
+  /* height: auto;
+  width: auto; */
+  width: 582px;
+  height: 326px;
+  /* width: 560px;
+  height: 315px; */
+  max-width: 100%;
+  max-height: 100%;
+  align-self: flex-start;
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1280px) {
   .video__iframe {
-    padding-left: 60px;
+    /* width: 525px; */
   }
 }
 
 @media screen and (max-width: 1184px) {
   .video__iframe {
-    padding: 0;
+    /* max-width: 440px; */
+    /* padding: 0;
     margin: 15px 0 20px;
-    align-self: center;
+    align-self: center; */
   }
 }
 
 @media screen and (max-width: 984px) {
   .video__iframe {
-    width: 550px;
-    height: 413px;
+    /* width: 565px;
+    max-width: 100%; */
+    /* padding: 0; */
+    margin: 20px 0 20px;
+    align-self: center;
+    /* width: 550px;
+    height: 413px; */
   }
 }
 
-@media screen and (max-width: 715px) {
+/* @media screen and (max-width: 715px) {
   .video__iframe {
     width: 320px;
     height: 240px;
   }
-}
+} */
