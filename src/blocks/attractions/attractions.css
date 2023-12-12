@@ -1,15 +1,14 @@
 .attractions {
-  max-width: 1280px;
-  padding: 100px 60px;
   display: flex;
-  justify-content: center;
-  background-color: #f8fafb;
-  margin: 0;
+  box-sizing: border-box;
+  margin: 70px 50px;
+  padding: 0;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1184px) {
   .attractions {
-    padding: 80px 50px;
+    margin: 50px 30px;
   }
 }
 
@@ -23,6 +22,8 @@
 
 @media screen and (max-width: 715px) {
   .attractions {
+    /* width: 100%; */
     padding: 40px 0;
+    margin: 0;
   }
 }

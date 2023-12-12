@@ -13,9 +13,11 @@
 
 @media screen and (max-width: 715px) {
   .advantage {
-    padding: 25px 15px;
+    max-width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
+    padding: 0;
   }
 }

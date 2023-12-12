@@ -50,7 +50,10 @@
             class="aboutProject__image"
           />
         </section>
-        <section class="aboutProject aboutProject-place">
+        <section
+          class="aboutProject aboutProject-place"
+          id="aboutProject-video"
+        >
           <div class="aboutProject__item">
             <h2 class="section__title aboutProject__title">
               Уникальное месторасположение, широкие возможности
@@ -71,11 +74,6 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-          <!-- <img
-            src="<%=require('./images/Pafilia-Plaza-12.png')%>"
-            alt="Изображение комплекса апартаментов."
-            class="aboutProject__image"
-          /> -->
         </section>
         <section class="aboutProject">
           <div class="aboutProject__item">
@@ -93,72 +91,13 @@
               жизни, где шум прибоя и красота моря станут неотъемлемой частью
               вашей повседневной жизни.
             </p>
-            <!-- <iframe
-              class="video__iframe"
-              src="https://www.youtube.com/embed/0LbMgY27VfY?si=RhSShmiAt8IyHgka"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe> -->
           </div>
           <img
-            src="<%=require('./images/photo-item3.png')%>"
+            src="<%=require('./images/photo-item4.png')%>"
             alt="Восьмиэтажные здания проекта Pafilia Plaza."
             class="aboutProject__image"
           />
         </section>
-        <!-- <section class="video" id="video">
-          <div class="video__container">
-            <h2 class="section__title video__title">
-              Почувствуйте атмосферу города
-            </h2>
-            <div class="video__icon"></div>
-            <iframe
-              class="video__iframe"
-              src="https://www.youtube.com/embed/0LbMgY27VfY?si=RhSShmiAt8IyHgka"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </section> -->
-        <!-- <section class="aboutProject-place">
-          <h2 class="section__title aboutProject-place__title">
-            Уникальное месторасположение, широкие возможности
-          </h2>
-          <p class="section__text aboutProject-place__text">
-            Представьте себе, что вы просыпаетесь, ощущая нежный морской бриз,
-            любуетесь захватывающим видом на море, а на досуге прогуливаетесь по
-            чистейшим песчаным пляжам. Ваша квартира находится среди этого
-            великолепия, а современный дизайн и внимание к мельчайшим деталям
-            превращают её в оазис элегантности и комфорта.
-          </p>
-        </section> -->
-        <!-- <section class="description">
-          <img
-            src="<%=require('./images/photo-item3.png')%>"
-            alt="Восьмиэтажные здания проекта Pafilia Plaza."
-            class="description__image"
-          />
-          <div class="description__place">
-            <h2 class="section__title description__title">Pafilia Plaza</h2>
-            <p class="section__text description__text">
-              Восьмиэтажный проект Pafilia Plaza будет виден из любого района
-              Пафоса, а элегантная современная архитектура и центральное
-              расположение сделает его знаковым для города.
-            </p>
-            <p class="section__text description__text">
-              Апартаменты Pafilia Plaza отличают просторные гостиные, панорамное
-              остекление и фантастические виды на море, археологический парк,
-              маяк и порт Пафоса, которыми вы сможете наслаждаться в комфорте
-              просторной веранды. Вы окунётесь в мир роскоши прибрежного образа
-              жизни, где шум прибоя и красота моря станут неотъемлемой частью
-              вашей повседневной жизни.
-            </p>
-          </div>
-        </section> -->
         <section class="advantage">
           <h2 class="advantage__title section__title" id="advantage">
             Основные характеристики
@@ -487,7 +426,7 @@
             />
             <img
               src="<%=require('./images/Pafos-4.jpg')%>"
-              alt="Гавань на берегу моря."
+              alt="Морское побережье."
               class="aboutCity__image"
             />
           </div>
@@ -586,6 +525,65 @@
             </li>
           </ul>
         </section>
+        <!-- <section class="aboutCity">
+          <div class="aboutCity__container">
+            <h2 class="aboutCity__title section__title">
+              Средиземноморский образ жизни
+            </h2>
+            <p class="aboutCity__text section__text">
+              Пафос предлагает очаровательный средиземноморский образ жизни.
+              Погрузитесь в непринужденную и яркую атмосферу города, где время
+              замедляется и, кажется, создано для отдыха и удовольствия.
+              Наслаждайтесь неторопливыми прогулками по живописной набережной,
+              откройте для себя пляжные бары. Множество кафе, ресторанов и
+              баров, где вы можете насладиться ароматом свеже-сваренного кофе
+              или аппетитными блюдами традиционной кипрской кухни, ждут вас.
+            </p>
+            <p class="aboutCity__text section__text">
+              Район Старого города полон очарования и представляет собой
+              лабиринт узких извилистых улочек с традиционными кипрскими
+              зданиями, украшенными яркими ставнями и цветущей бугенвиллией.
+              Здесь есть оживленный рынок, где можно приобрести изделия местных
+              ремесленников, свежие продукты и традиционные деликатесы.
+            </p>
+            <p class="aboutCity__text section__text">
+              Пафос – отличное место для отдыха и жизни, где удивительным
+              образом сочетается история, культура и подлинное местное
+              очарование.
+            </p>
+          </div>
+          <div class="aboutCity__item">
+            <div class="aboutCity__place">
+              <img
+                src="<%=require('./images/place6.jpg')%>"
+                alt="Пляжный бар."
+                class="aboutCity__image-item"
+              />
+              <img
+                src="<%=require('./images/place7.jpg')%>"
+                alt="Летнее кафе."
+                class="aboutCity__image-item"
+              />
+            </div>
+            <div class="aboutCity__place">
+              <img
+                src="<%=require('./images/place8.jpg')%>"
+                alt="Пляжный бар."
+                class="aboutCity__image-item"
+              />
+              <img
+                src="<%=require('./images/place9.jpg')%>"
+                alt="Летнее кафе."
+                class="aboutCity__image-item"
+              />
+              <img
+                src="<%=require('./images/place10.jpg')%>"
+                alt="Летнее кафе."
+                class="aboutCity__image-item"
+              />
+            </div>
+          </div>
+        </section> -->
         <section class="aboutPlace aboutPlace-city">
           <div class="aboutPlace-city__container">
             <h2 class="section__title aboutPlace__title aboutPlace__title-city">
@@ -801,7 +799,7 @@
                 Апартаменты и пентхаусы
               </p></a
             >
-            <a href="#video" class="popup__link"
+            <a href="#aboutProject-video" class="popup__link"
               ><p class="section__text popup__text">Видеообзор</p></a
             >
             <a href="#infrastructure" class="popup__link"

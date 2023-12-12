@@ -1,6 +1,7 @@
 .elements {
   display: grid;
   grid-template-columns: 5% 85% 5%;
+  justify-content: center;
   gap: 10px;
   margin: 50px 20px;
   padding: 0;

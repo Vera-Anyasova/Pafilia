@@ -1,4 +1,34 @@
 .aboutCity__place {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 90%);
+  /* grid-template-rows: 1fr 1fr; */
+  gap: 20px;
+  align-content: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutCity__place {
+    max-width: 100%;
+    width: 60%;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .aboutCity__place {
+    max-width: 90%;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .aboutCity__place {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0;
+  }
 }

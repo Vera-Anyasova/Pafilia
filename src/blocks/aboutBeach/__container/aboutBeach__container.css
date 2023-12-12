@@ -1,8 +1,7 @@
 .aboutBeach__container {
-  max-width: 1120px;
   display: grid;
-  grid-template-columns: 57% 20% 20%;
-  gap: 15px;
+  grid-template-columns: 4fr 1fr 1fr;
+  gap: 35px;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;

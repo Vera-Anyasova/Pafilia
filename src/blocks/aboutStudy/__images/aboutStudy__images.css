@@ -16,5 +16,6 @@
 @media screen and (max-width: 715px) {
   .aboutStudy__images {
     width: 100%;
+    gap: 15px;
   }
 }
