@@ -23,6 +23,7 @@
 
 @media screen and (max-width: 715px) {
   .advantage__list {
+    max-width: 90%;
     grid-template-columns: minmax(300px, 1fr);
     gap: 20px;
     margin: 0 auto;
