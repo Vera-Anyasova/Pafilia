@@ -1,10 +1,20 @@
 .attractions__image {
-  display: block;
   width: 100%;
+  min-width: 100%;
+  min-height: 100%;
   object-fit: cover;
+  /* display: block;
+  width: 100%;
+  object-fit: cover; */
   margin: 0;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
+  transition: 0.5s;
+}
+
+.attractions__image:hover {
+  transform: scale(1.15);
+  z-index: 10;
 }
 
 @media screen and (max-width: 715px) {
