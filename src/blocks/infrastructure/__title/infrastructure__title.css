@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 984px) {
   .infrastructure__title {
+    text-align: center;
     margin: 0 0 25px;
   }
 }

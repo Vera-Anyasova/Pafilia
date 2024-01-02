@@ -1,0 +1,36 @@
+.aboutStudy__logo-tls {
+  max-width: 400px;
+  min-height: 100px;
+  background: url(../../../images/logo_school_3.png) no-repeat;
+  background-size: contain;
+  margin: 0 0 30px;
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutStudy__logo-tls {
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .aboutStudy__logo-tls {
+    max-width: 120px;
+    width: 100%;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .aboutStudy__logo-tls {
+    max-width: 100px;
+    min-height: 120px;
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .aboutStudy__logo-tls {
+    margin: 10px 0;
+  }
+}

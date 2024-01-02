@@ -1,9 +1,11 @@
 .aboutBeach__subtitle {
-  margin: 0 0 40px;
+  align-self: flex-start;
+  margin: 0 0 30px;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 715px) {
   .aboutBeach__subtitle {
-    margin-bottom: 30px;
+    max-width: 90%;
+    margin: 0 auto 15px;
   }
 }

@@ -1,12 +1,10 @@
 .aboutProject-place__title {
+  /* font-size: 38px; */
   margin-bottom: 30px;
-  /* max-width: 800px;
-  text-align: center;
-  margin: 0 0 25px;
-  padding: 0; */
+  max-width: 500px;
 }
 
-/* @media screen and (max-width: 984px) {
+@media screen and (max-width: 984px) {
   .aboutProject-place__title {
     max-width: 700px;
     margin-bottom: 20px;
@@ -15,7 +13,7 @@
 
 @media screen and (max-width: 715px) {
   .aboutProject-place__title {
-    max-width: 60%;
+    max-width: 90%;
     margin-bottom: 15px;
     line-height: 1.4;
   }
@@ -23,6 +21,6 @@
 
 @media screen and (max-width: 425px) {
   .aboutProject-place__title {
-    max-width: 80%;
+    font-size: 22px;
   }
-} */
+}

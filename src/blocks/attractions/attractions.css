@@ -14,15 +14,17 @@
 
 @media screen and (max-width: 984px) {
   .attractions {
+    width: 90%;
     flex-direction: column-reverse;
     justify-content: center;
     padding: 0;
+    margin: 25px auto;
   }
 }
 
 @media screen and (max-width: 715px) {
   .attractions {
-    /* width: 100%; */
+    width: 100%;
     padding: 40px 0;
     margin: 0;
   }

@@ -3,31 +3,37 @@
   display: grid;
   /* grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr; */
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   padding: 0;
   margin: 0;
   height: fit-content;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1280px) {
+  .attractions__place {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+/* @media screen and (max-width: 1184px) {
   .attractions__place {
     max-width: 100%;
     width: 60%;
     padding-right: 40px;
   }
-}
+} */
 
 @media screen and (max-width: 984px) {
   .attractions__place {
     max-width: 100%;
-    padding: 0;
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
 
 @media screen and (max-width: 715px) {
   .attractions__place {
+    max-width: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
