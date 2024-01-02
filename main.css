@@ -205,7 +205,7 @@
 /*!*********************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject-place/__title/aboutProject-place__title.css ***!
   \*********************************************************************************************************************************************************************************************/
-.aboutProject-place__title{margin:0 0 25px;max-width:800px;padding:0;text-align:center}@media screen and (max-width:984px){.aboutProject-place__title{margin-bottom:20px;max-width:700px}}@media screen and (max-width:715px){.aboutProject-place__title{line-height:1.4;margin-bottom:15px;max-width:60%}}@media screen and (max-width:425px){.aboutProject-place__title{max-width:80%}}
+.aboutProject-place__title{margin-bottom:30px}
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject-place/__text/aboutProject-place__text.css ***!
   \*******************************************************************************************************************************************************************************************/
@@ -325,7 +325,7 @@
 /*!*************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/infrastructure/__title/infrastructure__title.css ***!
   \*************************************************************************************************************************************************************************************/
-.infrastructure__title{margin:60px 0 40px}@media screen and (max-width:1184px){.infrastructure__title{margin:40px 0 25px}}@media screen and (max-width:984px){.infrastructure__title{margin:10px 0 25px}}
+.infrastructure__title{margin:0 0 40px}@media screen and (max-width:1184px){.infrastructure__title{margin:0 0 25px}}@media screen and (max-width:984px){.infrastructure__title{margin:0 0 25px}}
 /*!***********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/infrastructure/__text/infrastructure__text.css ***!
   \***********************************************************************************************************************************************************************************/
@@ -357,7 +357,7 @@
 /*!*********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/video/__iframe/video__iframe.css ***!
   \*********************************************************************************************************************************************************************/
-.video__iframe{align-self:center;box-sizing:border-box;height:360px;margin:0;max-height:100%;max-width:47%;padding:0;width:640px;z-index:10}.video__iframe:hover{cursor:pointer}@media screen and (max-width:984px){.video__iframe{align-self:center;margin:20px 0;max-width:100%}}@media screen and (max-width:715px){.video__iframe{width:100%}}
+.video__iframe{align-self:flex-start;box-sizing:border-box;height:360px;margin:0;max-height:100%;max-width:47%;padding:0;width:640px;z-index:10}.video__iframe:hover{cursor:pointer}@media screen and (max-width:984px){.video__iframe{align-self:center;margin:20px 0;max-width:100%}}@media screen and (max-width:715px){.video__iframe{width:100%}}
 /*!*************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/map/__card/map__card.css ***!
   \*************************************************************************************************************************************************************/
