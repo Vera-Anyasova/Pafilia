@@ -3,7 +3,7 @@
   max-width: 47%;
   height: 360px;
   max-height: 100%;
-  align-self: center;
+  align-self: flex-start;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
