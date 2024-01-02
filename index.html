@@ -43,6 +43,16 @@
               обеспечат непревзойденное качество жизни, благодаря удобствам,
               предлагаемым инфраструктурой комплекса и города.
             </p>
+            <h3 class="section__text aboutProject__subtitle">
+              Уникальное месторасположение, широкие возможности
+            </h3>
+            <p class="section__text aboutProject__text">
+              Представьте себе, что вы просыпаетесь, ощущая нежный морской бриз,
+              любуетесь захватывающим видом на море, а на досуге прогуливаетесь
+              по чистейшим песчаным пляжам. Ваша квартира находится среди этого
+              великолепия, а современный дизайн и внимание к мельчайшим деталям
+              превращают её в оазис элегантности и комфорта.
+            </p>
           </div>
           <img
             src="f6f4d9024ac6c8488aa8.png"
@@ -50,7 +60,21 @@
             class="aboutProject__image"
           />
         </section>
-        <section
+        <section class="video" id="video">
+          <div class="video__container">
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/0LbMgY27VfY?si=RhSShmiAt8IyHgka"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <div class="video__icon"></div>
+            <!-- <div class="video__icon"></div> -->
+          </div>
+        </section>
+        <!-- <section
           class="aboutProject aboutProject-place"
           id="aboutProject-video"
         >
@@ -74,8 +98,8 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-        </section>
-        <section class="aboutProject">
+        </section> -->
+        <section class="aboutProject aboutProject-plaza">
           <div class="aboutProject__item">
             <h2 class="section__title aboutProject__title">Pafilia Plaza</h2>
             <p class="section__text aboutProject__text">
@@ -98,7 +122,7 @@
             </p>
           </div>
           <img
-            src="fd584ba626fb8d9515ab.png"
+            src="9dae5b97497cda5f3121.png"
             alt="Восьмиэтажные здания проекта Pafilia Plaza."
             class="aboutProject__image"
           />
@@ -250,6 +274,13 @@
             </p>
           </div>
         </section>
+        <section class="profile-video">
+          <div class="profile__place-video">
+            <div class="profile__photo-video"></div>
+            <div class="profile__container-video"></div>
+            <div class="profile__element-video"></div>
+          </div>
+        </section>
         <section class="elements" id="plan">
           <button
             type="button"
@@ -394,6 +425,7 @@
         </section>
         <section class="aboutPlace aboutPlace-city">
           <div class="aboutPlace-city__container">
+            <h3 class="aboutPlace__subtitle">Пафос</h3>
             <h2 class="section__title aboutPlace__title aboutPlace__title-city">
               Средиземноморский образ жизни
             </h2>
@@ -413,7 +445,7 @@
               Здесь есть оживленный рынок, где можно приобрести изделия местных
               ремесленников, свежие продукты и традиционные деликатесы.
             </p>
-            <p class="section__text aboutPlace-city__text">
+            <p class="aboutPlace-city__text section__text">
               Пафос – отличное место для отдыха и жизни, где удивительным
               образом сочетается история, культура и подлинное местное
               очарование.
@@ -443,7 +475,7 @@
             <img
               src="e98f7212400714695887.jpg"
               alt="Летнее кафе."
-              class="aboutPlace__image"
+              class="aboutPlace__image aboutPlace__image_five"
             />
             <!-- <li class="aboutPlace__image aboutPlace__image_one"></li>
             <li class="aboutPlace__image aboutPlace__image_two"></li>
@@ -833,7 +865,7 @@
             class="footer__element"
           />
         </div>
-        <p class="footer__copyright">Pafilia © 2023</p>
+        <!-- <p class="footer__copyright">Pafilia © 2023</p> -->
       </footer>
       <div class="popup">
         <div class="popup__container">
@@ -856,7 +888,7 @@
                 Апартаменты и пентхаусы
               </p></a
             >
-            <a href="#aboutProject-video" class="popup__link"
+            <a href="#video" class="popup__link"
               ><p class="section__text popup__text">Видеообзор</p></a
             >
             <a href="#infrastructure" class="popup__link"
