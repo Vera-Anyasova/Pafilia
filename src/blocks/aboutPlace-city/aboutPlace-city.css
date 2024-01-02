@@ -1,19 +1,28 @@
 .aboutPlace-city {
   box-sizing: border-box;
-  padding: 70px 40px 100px;
-  background-color: #f8fafb;
-  margin: 0;
+  margin: 70px 50px 100px;
+  /* background-color: #f8fafb; */
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutPlace-city {
+    margin: 50px 30px;
+  }
 }
 
 @media screen and (max-width: 984px) {
   .aboutPlace-city {
-    padding: 60px 40px;
+    width: 90%;
+    padding: 0;
     font-size: 16px;
+    margin: 25px auto;
   }
 }
 
 @media screen and (max-width: 715px) {
   .aboutPlace-city {
+    width: 100%;
     background-color: #fff;
     padding: 0 0 40px;
     font-size: 16px;

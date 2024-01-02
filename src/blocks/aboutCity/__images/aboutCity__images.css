@@ -8,6 +8,7 @@
   min-height: 100%; */
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: fit-content;
   /* grid-template-columns: repeat(auto-fit, minmax(282px, max-content)); */
   gap: 15px;
   /* justify-content: space-between; */

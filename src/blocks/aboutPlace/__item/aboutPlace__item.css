@@ -6,11 +6,12 @@
   gap: 5px;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 15px 0 0;
 }
 
 @media screen and (max-width: 984px) {
   .aboutPlace__item {
+    margin: 10px 0 0;
     flex-wrap: wrap;
     justify-content: center;
   }

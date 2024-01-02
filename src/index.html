@@ -43,6 +43,16 @@
               обеспечат непревзойденное качество жизни, благодаря удобствам,
               предлагаемым инфраструктурой комплекса и города.
             </p>
+            <h3 class="section__text aboutProject__subtitle">
+              Уникальное месторасположение, широкие возможности
+            </h3>
+            <p class="section__text aboutProject__text">
+              Представьте себе, что вы просыпаетесь, ощущая нежный морской бриз,
+              любуетесь захватывающим видом на море, а на досуге прогуливаетесь
+              по чистейшим песчаным пляжам. Ваша квартира находится среди этого
+              великолепия, а современный дизайн и внимание к мельчайшим деталям
+              превращают её в оазис элегантности и комфорта.
+            </p>
           </div>
           <img
             src="<%=require('./images/photo1.png')%>"
@@ -50,7 +60,21 @@
             class="aboutProject__image"
           />
         </section>
-        <section
+        <section class="video" id="video">
+          <div class="video__container">
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/0LbMgY27VfY?si=RhSShmiAt8IyHgka"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <div class="video__icon"></div>
+            <!-- <div class="video__icon"></div> -->
+          </div>
+        </section>
+        <!-- <section
           class="aboutProject aboutProject-place"
           id="aboutProject-video"
         >
@@ -74,8 +98,8 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-        </section>
-        <section class="aboutProject">
+        </section> -->
+        <section class="aboutProject aboutProject-plaza">
           <div class="aboutProject__item">
             <h2 class="section__title aboutProject__title">Pafilia Plaza</h2>
             <p class="section__text aboutProject__text">
@@ -98,7 +122,7 @@
             </p>
           </div>
           <img
-            src="<%=require('./images/photo-item4.png')%>"
+            src="<%=require('./images/photo-item5.png')%>"
             alt="Восьмиэтажные здания проекта Pafilia Plaza."
             class="aboutProject__image"
           />
@@ -250,6 +274,72 @@
             </p>
           </div>
         </section>
+        <section class="profile-video">
+          <div class="profile__place-video">
+            <div class="profile__photo-video"></div>
+            <div class="profile__container-video"></div>
+            <div class="profile__element-video"></div>
+          </div>
+        </section>
+        <section class="elements" id="plan">
+          <button
+            type="button"
+            class="element__prev"
+            aria-label="Предыдущий слайд."
+          ></button>
+          <div class="elements__list" id="elements__list">
+            <img
+              src="<%=require('./images/map11.jpg')%>"
+              alt="Генеральный план"
+              class="element__image"
+            />
+            <img
+              src="<%=require('./images/map12.jpg')%>"
+              alt="Цокольный этаж"
+              class="element__image"
+            />
+            <img
+              src="<%=require('./images/map13.jpg')%>"
+              alt="Первый этаж"
+              class="element__image"
+            />
+            <img
+              src="<%=require('./images/map14.jpg')%>"
+              alt="Второй этаж"
+              class="element__image"
+            />
+            <img
+              src="<%=require('./images/map15.jpg')%>"
+              alt="Третий этаж"
+              class="element__image"
+            />
+            <img
+              src="<%=require('./images/map16.jpg')%>"
+              alt="Четвертый этаж"
+              class="element__image"
+            />
+            <img
+              src="<%=require('./images/map17.jpg')%>"
+              alt="Пятый этаж"
+              class="element__image"
+            />
+            <img
+              src="<%=require('./images/map18.jpg')%>"
+              alt="Шестой этаж"
+              class="element__image"
+            />
+            <img
+              src="<%=require('./images/map19.jpg')%>"
+              alt="Седьмой этаж"
+              class="element__image"
+            />
+          </div>
+          <button
+            type="button"
+            class="element__next"
+            aria-label="Следующий слайд."
+          ></button>
+        </section>
         <section class="map">
           <h2 class="section__title map__title" id="infrastructure">
             Достопримечательности и городская инфраструктура
@@ -333,66 +423,99 @@
             class="map__vicinity-place"
           />
         </section>
-        <section class="elements" id="plan">
-          <button
-            type="button"
-            class="element__prev"
-            aria-label="Предыдущий слайд."
-          ></button>
-          <div class="elements__list" id="elements__list">
-            <img
-              src="<%=require('./images/map11.jpg')%>"
-              alt="Генеральный план"
-              class="element__image"
-            />
-            <img
-              src="<%=require('./images/map12.jpg')%>"
-              alt="Цокольный этаж"
-              class="element__image"
-            />
-            <img
-              src="<%=require('./images/map13.jpg')%>"
-              alt="Первый этаж"
-              class="element__image"
-            />
-            <img
-              src="<%=require('./images/map14.jpg')%>"
-              alt="Второй этаж"
-              class="element__image"
-            />
-            <img
-              src="<%=require('./images/map15.jpg')%>"
-              alt="Третий этаж"
-              class="element__image"
-            />
-            <img
-              src="<%=require('./images/map16.jpg')%>"
-              alt="Четвертый этаж"
-              class="element__image"
-            />
-            <img
-              src="<%=require('./images/map17.jpg')%>"
-              alt="Пятый этаж"
-              class="element__image"
-            />
-            <img
-              src="<%=require('./images/map18.jpg')%>"
-              alt="Шестой этаж"
-              class="element__image"
-            />
-            <img
-              src="<%=require('./images/map19.jpg')%>"
-              alt="Седьмой этаж"
-              class="element__image"
-            />
+        <section class="aboutPlace aboutPlace-city">
+          <div class="aboutPlace-city__container">
+            <h3 class="aboutPlace__subtitle">Пафос</h3>
+            <h2 class="section__title aboutPlace__title aboutPlace__title-city">
+              Средиземноморский образ жизни
+            </h2>
+            <p class="aboutPlace-city__text section__text">
+              Пафос предлагает очаровательный средиземноморский образ жизни.
+              Погрузитесь в непринужденную и яркую атмосферу города, где время
+              замедляется и, кажется, создано для отдыха и удовольствия.
+              Наслаждайтесь неторопливыми прогулками по живописной набережной,
+              откройте для себя пляжные бары. Множество кафе, ресторанов и
+              баров, где вы можете насладиться ароматом свеже-сваренного кофе
+              или аппетитными блюдами традиционной кипрской кухни, ждут вас.
+            </p>
+            <p class="aboutPlace-city__text section__text">
+              Район Старого города полон очарования и представляет собой
+              лабиринт узких извилистых улочек с традиционными кипрскими
+              зданиями, украшенными яркими ставнями и цветущей бугенвиллией.
+              Здесь есть оживленный рынок, где можно приобрести изделия местных
+              ремесленников, свежие продукты и традиционные деликатесы.
+            </p>
+            <p class="aboutPlace-city__text section__text">
+              Пафос – отличное место для отдыха и жизни, где удивительным
+              образом сочетается история, культура и подлинное местное
+              очарование.
+            </p>
           </div>
-          <button
-            type="button"
-            class="element__next"
-            aria-label="Следующий слайд."
-          ></button>
+          <div class="aboutPlace__item">
+            <img
+              src="<%=require('./images/place6.jpg')%>"
+              alt="Пляжный бар."
+              class="aboutPlace__image"
+            />
+            <img
+              src="<%=require('./images/place7.jpg')%>"
+              alt="Летнее кафе."
+              class="aboutPlace__image"
+            />
+            <img
+              src="<%=require('./images/place8.jpg')%>"
+              alt="Пляжный бар."
+              class="aboutPlace__image"
+            />
+            <img
+              src="<%=require('./images/place9.jpg')%>"
+              alt="Летнее кафе."
+              class="aboutPlace__image"
+            />
+            <img
+              src="<%=require('./images/place10.jpg')%>"
+              alt="Летнее кафе."
+              class="aboutPlace__image aboutPlace__image_five"
+            />
+            <!-- <li class="aboutPlace__image aboutPlace__image_one"></li>
+            <li class="aboutPlace__image aboutPlace__image_two"></li>
+            <li class="aboutPlace__image aboutPlace__image_three"></li>
+            <li class="aboutPlace__image aboutPlace__image_four"></li>
+            <li class="aboutPlace__image aboutPlace__image_five"></li> -->
+          </div>
         </section>
         <section class="aboutCity">
+          <div class="aboutCity__container" id="city">
+            <!-- <h3 class="aboutCity__subtitle">Пафос</h3> -->
+            <h2 class="aboutCity__title section__title">Город красоты</h2>
+            <p class="aboutCity__text section__text">
+              Пафос с его очаровательной гаванью и средневековой крепостью
+              предлагает космополитическую жизнь, захватывающие пейзажи и
+              богатое историческое достояние. В древности на протяжении 600 лет
+              этот город был столицей Кипра, а его археологическое наследие так
+              велико, что ЮНЕСКО включила весь город целиком в список Всемирного
+              культурного наследия.
+            </p>
+          </div>
+          <div class="aboutCity__images">
+            <img
+              src="<%=require('./images/place1.jpg')%>"
+              alt="Морское побережье."
+              class="aboutCity__image aboutCity__image-big"
+            />
+            <img
+              src="<%=require('./images/Pafos-4.jpg')%>"
+              alt="Морское побережье."
+              class="aboutCity__image"
+            />
+            <img
+              src="<%=require('./images/place2.jpg')%>"
+              alt="Гавань на берегу моря."
+              class="aboutCity__image"
+            />
+          </div>
+        </section>
+        <!-- <section class="aboutCity">
           <div class="aboutCity__container" id="city">
             <h3 class="aboutCity__subtitle">Пафос</h3>
             <h2 class="aboutCity__title section__title">Город красоты</h2>
@@ -405,11 +528,6 @@
               культурного наследия.
             </p>
           </div>
-          <!-- <img
-            src="<%=require('./images/place2.jpg')%>"
-            alt="Гавань на берегу моря."
-            class="aboutCity__image-element"
-          /> -->
           <div class="aboutCity__images">
             <img
               src="<%=require('./images/place1.jpg')%>"
@@ -432,7 +550,7 @@
               class="aboutCity__image"
             />
           </div>
-        </section>
+        </section> -->
         <section class="attractions">
           <div class="attractions__place">
             <img
@@ -469,66 +587,9 @@
             </p>
           </div>
         </section>
-        <section class="aboutBeach">
-          <h3 class="aboutCity__subtitle aboutBeach__subtitle">Пафос</h3>
-          <ul class="aboutBeach__container">
-            <li class="aboutBeach__item">
-              <p class="section__text aboutBeach__text">
-                Очарование исторического Пафоса удачно дополняется множеством
-                потрясающих пляжей. Кристально чистые бирюзовые воды
-                Средиземного моря манят освежиться и позагорать на золотистых
-                пляжах. Разнообразие пляжей захватывает дух – ищете вы спокойный
-                отдых, атмосферу пляжных баров или полные адреналина приключения
-                водного спорта – в Пафосе есть все. Попробуйте свои силы в
-                виндсерфинге, подводном плавании или просто расслабляйтесь,
-                наслаждаясь ласковыми волнами и свежим морским бризом.
-              </p>
-              <img
-                src="<%=require('./images/place11.jpg')%>"
-                alt="Морское побережье."
-                class="aboutBeach__image aboutBeach__image_big"
-              />
-            </li>
-            <li class="aboutBeach__item">
-              <ul class="aboutBeach__place">
-                <li class="section__text aboutBeach__text">Замок Пафоса</li>
-                <li class="section__text aboutBeach__text">Камень Афродиты</li>
-                <li class="section__text aboutBeach__text">
-                  Археологический парк
-                </li>
-                <li class="section__text aboutBeach__text">Римские мозаики</li>
-                <li class="section__text aboutBeach__text">Гробницы королей</li>
-              </ul>
-              <img
-                src="<%=require('./images/place12.jpg')%>"
-                alt="Песчанный пляж."
-                class="aboutBeach__image aboutBeach__image_middle"
-              />
-            </li>
-            <li class="aboutBeach__item">
-              <ul class="aboutBeach__place">
-                <li class="section__text aboutBeach__text">Пляж Coral Bay</li>
-                <li class="section__text aboutBeach__text">
-                  Заповедник Akamas
-                </li>
-                <li class="section__text aboutBeach__text">
-                  ТЦ Kings Avenue Mall
-                </li>
-                <li class="section__text aboutBeach__text">
-                  Традиционные деревушки
-                </li>
-                <li class="section__text aboutBeach__text">Винодельни</li>
-              </ul>
-              <img
-                src="<%=require('./images/place13.jpg')%>"
-                alt="Терасса с видом на море."
-                class="aboutBeach__image aboutBeach__image_small"
-              />
-            </li>
-          </ul>
-        </section>
         <!-- <section class="aboutCity">
           <div class="aboutCity__container">
+            <h3 class="aboutCity__subtitle">Пафос</h3>
             <h2 class="aboutCity__title section__title">
               Средиземноморский образ жизни
             </h2>
@@ -586,39 +647,65 @@
             </div>
           </div>
         </section> -->
-        <section class="aboutPlace aboutPlace-city">
-          <div class="aboutPlace-city__container">
-            <h2 class="section__title aboutPlace__title aboutPlace__title-city">
-              Средиземноморский образ жизни
-            </h2>
-            <p class="section__text aboutPlace-city__text">
-              Пафос предлагает очаровательный средиземноморский образ жизни.
-              Погрузитесь в непринужденную и яркую атмосферу города, где время
-              замедляется и, кажется, создано для отдыха и удовольствия.
-              Наслаждайтесь неторопливыми прогулками по живописной набережной,
-              откройте для себя пляжные бары. Множество кафе, ресторанов и
-              баров, где вы можете насладиться ароматом свеже-сваренного кофе
-              или аппетитными блюдами традиционной кипрской кухни, ждут вас.
-            </p>
-            <p class="section__text aboutPlace-city__text">
-              Район Старого города полон очарования и представляет собой
-              лабиринт узких извилистых улочек с традиционными кипрскими
-              зданиями, украшенными яркими ставнями и цветущей бугенвиллией.
-              Здесь есть оживленный рынок, где можно приобрести изделия местных
-              ремесленников, свежие продукты и традиционные деликатесы.
-            </p>
-            <p class="section__text aboutPlace-city__text">
-              Пафос – отличное место для отдыха и жизни, где удивительным
-              образом сочетается история, культура и подлинное местное
-              очарование.
-            </p>
-          </div>
-          <ul class="aboutPlace__item">
-            <li class="aboutPlace__image aboutPlace__image_one"></li>
-            <li class="aboutPlace__image aboutPlace__image_two"></li>
-            <li class="aboutPlace__image aboutPlace__image_three"></li>
-            <li class="aboutPlace__image aboutPlace__image_four"></li>
-            <li class="aboutPlace__image aboutPlace__image_five"></li>
+        <section class="aboutBeach">
+          <!-- <h2 class="aboutCity__title aboutCity__title-item section__title">
+            Пафос
+          </h2> -->
+          <h3 class="aboutCity__subtitle aboutBeach__subtitle">Пафос</h3>
+          <ul class="aboutBeach__container">
+            <li class="aboutBeach__item">
+              <p class="section__text aboutBeach__text">
+                Очарование исторического Пафоса удачно дополняется множеством
+                потрясающих пляжей. Кристально чистые бирюзовые воды
+                Средиземного моря манят освежиться и позагорать на золотистых
+                пляжах. Разнообразие пляжей захватывает дух – ищете вы спокойный
+                отдых, атмосферу пляжных баров или полные адреналина приключения
+                водного спорта – в Пафосе есть все. Попробуйте свои силы в
+                виндсерфинге, подводном плавании или просто расслабляйтесь,
+                наслаждаясь ласковыми волнами и свежим морским бризом.
+              </p>
+              <img
+                src="<%=require('./images/place11.jpg')%>"
+                alt="Морское побережье."
+                class="aboutBeach__image aboutBeach__image_big"
+              />
+            </li>
+            <li class="aboutBeach__item">
+              <ul class="aboutBeach__place">
+                <li class="section__text aboutBeach__text">Замок Пафоса</li>
+                <li class="section__text aboutBeach__text">Камень Афродиты</li>
+                <li class="section__text aboutBeach__text">
+                  Археологический парк
+                </li>
+                <li class="section__text aboutBeach__text">Римские мозаики</li>
+                <li class="section__text aboutBeach__text">Гробницы королей</li>
+              </ul>
+              <img
+                src="<%=require('./images/place12.jpg')%>"
+                alt="Песчанный пляж."
+                class="aboutBeach__image aboutBeach__image_middle"
+              />
+            </li>
+            <li class="aboutBeach__item">
+              <ul class="aboutBeach__place">
+                <li class="section__text aboutBeach__text">Пляж Coral Bay</li>
+                <li class="section__text aboutBeach__text">
+                  Заповедник Akamas
+                </li>
+                <li class="section__text aboutBeach__text">
+                  ТЦ Kings Avenue Mall
+                </li>
+                <li class="section__text aboutBeach__text">
+                  Традиционные деревушки
+                </li>
+                <li class="section__text aboutBeach__text">Винодельни</li>
+              </ul>
+              <img
+                src="<%=require('./images/place13.jpg')%>"
+                alt="Терасса с видом на море."
+                class="aboutBeach__image aboutBeach__image_small"
+              />
+            </li>
           </ul>
         </section>
         <section class="aboutStudy" id="study">
@@ -778,7 +865,7 @@
             class="footer__element"
           />
         </div>
-        <p class="footer__copyright">Pafilia © 2023</p>
+        <!-- <p class="footer__copyright">Pafilia © 2023</p> -->
       </footer>
       <div class="popup">
         <div class="popup__container">
@@ -801,7 +888,7 @@
                 Апартаменты и пентхаусы
               </p></a
             >
-            <a href="#aboutProject-video" class="popup__link"
+            <a href="#video" class="popup__link"
               ><p class="section__text popup__text">Видеообзор</p></a
             >
             <a href="#infrastructure" class="popup__link"

@@ -1,3 +1,9 @@
 .aboutPlace__image_two {
-  background: url(../../../../images/place7.jpg) no-repeat center / cover;
+  margin: 0;
+}
+
+@media screen and (max-width: 715px) {
+  .aboutPlace__image_five {
+    display: none;
+  }
 }

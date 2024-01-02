@@ -1,7 +1,7 @@
 .aboutPlace-city__text {
-  max-width: 900px;
-  text-align: center;
-  font-size: 16px;
+  /* max-width: 900px; */
+  /* text-align: center; */
+  text-align: justify;
   margin: 0 0 15px;
   padding: 0;
 }
