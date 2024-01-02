@@ -26,10 +26,18 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/profile.css ***!
   \********************************************************************************************************************************************************/
 .profile{box-sizing:border-box;display:flex;height:700px;margin:0 0 80px;min-height:100%;position:relative;width:100%}@media screen and (max-width:1184px){.profile{height:600px}}@media screen and (max-width:984px){.profile{height:500px;margin-bottom:50px}}@media screen and (max-width:715px){.profile{height:300px;margin-bottom:30px}}
+/*!********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile-video/profile-video.css ***!
+  \********************************************************************************************************************************************************************/
+.profile-video{box-sizing:border-box;display:flex;height:700px;margin:0 0 80px;min-height:100%;position:relative;width:100%}@media screen and (max-width:1184px){.profile-video{height:600px}}@media screen and (max-width:984px){.profile-video{height:500px;margin-bottom:50px}}@media screen and (max-width:715px){.profile-video{height:300px;margin-bottom:30px}}
 /*!******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/aboutProject.css ***!
   \******************************************************************************************************************************************************************/
-.aboutProject{box-sizing:border-box;display:flex;justify-content:space-between;margin:70px 50px;padding:0}@media screen and (max-width:1184px){.aboutProject{margin:50px 30px}}@media screen and (max-width:984px){.aboutProject{flex-direction:column;gap:15px;margin:25px auto;width:90%}}@media screen and (max-width:715px){.aboutProject{width:100%}}
+.aboutProject{box-sizing:border-box;display:flex;justify-content:space-between;margin:70px 0 70px 50px;padding:0}@media screen and (max-width:1184px){.aboutProject{margin:50px 30px}}@media screen and (max-width:984px){.aboutProject{flex-direction:column;gap:15px;margin:25px auto;width:90%}}@media screen and (max-width:715px){.aboutProject{width:100%}}
+/*!******************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject-plaza/aboutProject-plaza.css ***!
+  \******************************************************************************************************************************************************************************/
+
 /*!******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject-place/aboutProject-place.css ***!
   \******************************************************************************************************************************************************************************/
@@ -41,7 +49,7 @@
 /*!************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/advantage/advantage.css ***!
   \************************************************************************************************************************************************************/
-.advantage{background-color:#f8fafb;margin:0;padding:70px 50px}@media screen and (max-width:984px){.advantage{padding:30px}}@media screen and (max-width:715px){.advantage{display:flex;flex-direction:column;justify-content:center;padding:25px 15px}}
+.advantage{background-color:#f8fafb;margin:0;padding:70px 50px}@media screen and (max-width:984px){.advantage{padding:30px}}@media screen and (max-width:715px){.advantage{display:flex;flex-direction:column;justify-content:center;margin:0 auto;padding:0}}
 /*!**************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace/aboutPlace.css ***!
   \**************************************************************************************************************************************************************/
@@ -69,15 +77,15 @@
 /*!****************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/attractions/attractions.css ***!
   \****************************************************************************************************************************************************************/
-.attractions{background-color:#f8fafb;display:flex;justify-content:center;margin:0;max-width:1280px;padding:100px 60px}@media screen and (max-width:1184px){.attractions{padding:80px 50px}}@media screen and (max-width:984px){.attractions{flex-direction:column-reverse;justify-content:center;padding:60px 0}}@media screen and (max-width:715px){.attractions{padding:40px 0}}
+.attractions{box-sizing:border-box;display:flex;justify-content:space-between;margin:70px 50px;padding:0}@media screen and (max-width:1184px){.attractions{margin:50px 30px}}@media screen and (max-width:984px){.attractions{flex-direction:column-reverse;justify-content:center;padding:0}}@media screen and (max-width:715px){.attractions{margin:0;padding:40px 0}}
 /*!************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace-city/aboutPlace-city.css ***!
   \************************************************************************************************************************************************************************/
-.aboutPlace-city{background-color:#f8fafb;box-sizing:border-box;margin:0;padding:70px 40px 100px}@media screen and (max-width:984px){.aboutPlace-city{font-size:16px;padding:60px 40px}}@media screen and (max-width:715px){.aboutPlace-city{font-size:16px;padding:40px 0}}
+.aboutPlace-city{box-sizing:border-box;margin:70px 50px 100px;padding:0}@media screen and (max-width:1184px){.aboutPlace-city{margin:50px 30px}}@media screen and (max-width:984px){.aboutPlace-city{font-size:16px;margin:25px auto;padding:0;width:90%}}@media screen and (max-width:715px){.aboutPlace-city{background-color:#fff;font-size:16px;padding:0 0 40px;width:100%}}
 /*!**************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutBeach/aboutBeach.css ***!
   \**************************************************************************************************************************************************************/
-.aboutBeach{align-items:center;display:flex;flex-direction:column;justify-content:center;margin:80px 60px;padding:0}@media screen and (max-width:1184px){.aboutBeach{margin:70px 45px}}@media screen and (max-width:984px){.aboutBeach{margin:60px 40px}}@media screen and (max-width:715px){.aboutBeach{margin:20px 0 50px}}
+.aboutBeach{align-items:center;display:flex;flex-direction:column;justify-content:center;margin:70px 50px;padding:0}@media screen and (max-width:1184px){.aboutBeach{margin:70px 45px}}@media screen and (max-width:984px){.aboutBeach{margin:60px 40px}}@media screen and (max-width:715px){.aboutBeach{margin:20px 0 50px}}
 /*!**************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutStudy/aboutStudy.css ***!
   \**************************************************************************************************************************************************************/
@@ -89,7 +97,7 @@
 /*!**********************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/elements/elements.css ***!
   \**********************************************************************************************************************************************************/
-.elements{display:grid;gap:10px;grid-template-columns:5% 85% 5%;margin:50px 20px;padding:0}@media screen and (max-width:1184px){.elements{margin:40px 20px}}@media screen and (max-width:984px){.elements{margin:30px 15px}}@media screen and (max-width:715px){.elements{grid-template-columns:5% 79% 5%;margin:20px 8px}}
+.elements{display:grid;gap:10px;grid-template-columns:5% 85% 5%;justify-content:center;margin:50px 20px;padding:0}@media screen and (max-width:1184px){.elements{margin:40px 20px}}@media screen and (max-width:984px){.elements{margin:30px 15px}}@media screen and (max-width:715px){.elements{grid-template-columns:5% 79% 5%;margin:20px 8px}}
 /*!******************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/hidden/hidden.css ***!
   \******************************************************************************************************************************************************/
@@ -97,7 +105,7 @@
 /*!****************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/video/video.css ***!
   \****************************************************************************************************************************************************/
-.video{background:#f2f2f2;display:flex;flex-direction:column;margin:70px 50px;max-width:100vw;padding:0}@media screen and (max-width:1184px){.video{margin:30px 50px}}@media screen and (max-width:984px){.video{margin:20px 30px}}@media screen and (max-width:715px){.video{background:#fff;margin:0;padding:20px}}
+.video{box-sizing:border-box;margin:0;padding:0;width:100%}@media screen and (max-width:984px){.video{margin:20px auto}}@media screen and (max-width:715px){.video{margin:0}}
 /*!******************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/footer.css ***!
   \******************************************************************************************************************************************************/
@@ -117,7 +125,7 @@
 /*!*******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/header/__menu/header__menu.css ***!
   \*******************************************************************************************************************************************************************/
-.header__menu{background:url(cbf740ff92d4c6e7e0fb.png) no-repeat;background-size:contain;border:0;box-sizing:border-box;height:45px;margin:14px 0 0;-o-object-fit:cover;object-fit:cover;padding:0;width:45px}.header__menu:hover{cursor:pointer;opacity:.8}@media screen and (max-width:1184px){.header__menu{height:40px;margin-top:10px;width:40px}}@media screen and (max-width:984px){.header__menu{height:33px;width:33px}}
+.header__menu{background:url(2ffea355e80b195ce36c.svg) no-repeat;background-size:contain;border:0;box-sizing:border-box;height:45px;margin:5px 0 0;-o-object-fit:cover;object-fit:cover;padding:0;width:45px}.header__menu:hover{cursor:pointer;opacity:.8}@media screen and (max-width:1184px){.header__menu{height:40px;margin-top:10px;width:40px}}@media screen and (max-width:984px){.header__menu{height:33px;width:33px}}
 /*!***********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/__place/profile__place.css ***!
   \***********************************************************************************************************************************************************************/
@@ -134,6 +142,26 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/__element/profile__element.css ***!
   \***************************************************************************************************************************************************************************/
 .profile__element{background:url(7679d22fd899e9a667f4.png) no-repeat 50%/cover;height:200px;left:50px;margin:0;padding:0;position:absolute;top:30%;width:550px;z-index:15}@media screen and (max-width:1184px){.profile__element{height:160px;left:30px;top:30%;width:470px}}@media screen and (max-width:984px){.profile__element{height:140px;left:25px;width:400px}}@media screen and (max-width:715px){.profile__element{height:130px;left:0;margin-left:auto;margin-right:auto;right:0;text-align:center;width:360px}}@media screen and (max-width:450px){.profile__element{height:105px;width:300px}}
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/__element-plaza/profile__element-plaza.css ***!
+  \***************************************************************************************************************************************************************************************/
+.profile__element-plaza{background:url(340f06be6b546ea0e3b5.png) no-repeat 50%/cover;height:200px;left:50px;margin:0;padding:0;position:absolute;top:30%;width:550px;z-index:15}@media screen and (max-width:1184px){.profile__element-plaza{height:160px;left:30px;top:30%;width:470px}}@media screen and (max-width:984px){.profile__element-plaza{height:140px;left:25px;width:400px}}@media screen and (max-width:715px){.profile__element-plaza{height:130px;left:0;margin-left:auto;margin-right:auto;right:0;text-align:center;width:360px}}@media screen and (max-width:450px){.profile__element-plaza{height:105px;width:300px}}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile-video/__place-video/profile__place-video.css ***!
+  \*****************************************************************************************************************************************************************************************/
+.profile__place-video{margin:0;padding:0;width:100%}
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile-video/__photo-video/profile__photo-video.css ***!
+  \*****************************************************************************************************************************************************************************************/
+.profile__photo-video{background:url(0baf23a2d1b32ad91a1f.png) no-repeat 50%/cover;box-sizing:border-box;height:100%;width:100%;z-index:1}
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile-video/__container-video/profile__container-video.css ***!
+  \*************************************************************************************************************************************************************************************************/
+.profile__container-video{background:rgba(0,0,0,.7);display:flex;height:100%;justify-content:flex-start;margin:0;overflow:auto;padding:0;position:absolute;right:0;top:0;width:50%;z-index:12}@media screen and (max-width:1184px){.profile__container-video{width:520px}}@media screen and (max-width:984px){.profile__container-video{width:450px}}@media screen and (max-width:715px){.profile__container-video{height:100%;width:100%}}
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile-video/__element-video/profile__element-video.css ***!
+  \*********************************************************************************************************************************************************************************************/
+.profile__element-video{background:url(7679d22fd899e9a667f4.png) no-repeat 50%/cover;height:200px;margin:0;padding:0;position:absolute;right:5%;top:30%;width:550px;z-index:15}@media screen and (max-width:1280px){.profile__element-video{height:160px;right:3%;width:470px}}@media screen and (max-width:1184px){.profile__element-video{height:160px;right:2%;width:470px}}@media screen and (max-width:984px){.profile__element-video{height:140px;width:400px}}@media screen and (max-width:715px){.profile__element-video{height:130px;left:0;margin-left:auto;margin-right:auto;right:0;text-align:center;width:360px}}@media screen and (max-width:450px){.profile__element-video{height:105px;width:300px}}
 /*!***********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/section/__title/section__title.css ***!
   \***********************************************************************************************************************************************************************/
@@ -154,6 +182,10 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__title/aboutProject__title.css ***!
   \*********************************************************************************************************************************************************************************/
 .aboutProject__title{margin:0 0 60px;max-width:440px;padding:0;text-align:left}@media screen and (max-width:984px){.aboutProject__title{align-self:center;margin-bottom:30px;max-width:450px;text-align:center}}@media screen and (max-width:715px){.aboutProject__title{margin-bottom:25px}}
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__subtitle/aboutProject__subtitle.css ***!
+  \***************************************************************************************************************************************************************************************/
+.aboutProject__subtitle{font-size:18px;font-weight:700;margin:30px 0 0;text-transform:uppercase}@media screen and (max-width:984px){.aboutProject__subtitle{font-size:17px;text-align:center}}@media screen and (max-width:715px){.aboutProject__subtitle{margin:20px auto 0;width:90%}}
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__text/aboutProject__text.css ***!
   \*******************************************************************************************************************************************************************************/
@@ -165,7 +197,7 @@
 /*!*********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__image/aboutProject__image.css ***!
   \*********************************************************************************************************************************************************************************/
-.aboutProject__image{margin:0;max-width:47%;-o-object-fit:cover;object-fit:cover;padding:0}@media screen and (max-width:984px){.aboutProject__image{max-width:100%}}@media screen and (max-width:715px){.aboutProject__image{border-radius:0;box-shadow:none;width:100%}}
+.aboutProject__image{border-radius:3px;box-shadow:0 5px 10px 0 rgba(0,0,0,.5);margin:0;max-height:100%;max-width:47%;-o-object-fit:cover;object-fit:cover;padding:0}@media screen and (max-width:984px){.aboutProject__image{max-width:100%}}@media screen and (max-width:715px){.aboutProject__image{border-radius:0;box-shadow:none;width:100%}}
 /*!*********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutProject/__place/aboutProject__place.css ***!
   \*********************************************************************************************************************************************************************************/
@@ -201,7 +233,7 @@
 /*!*************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/advantage/__list/advantage__list.css ***!
   \*************************************************************************************************************************************************************************/
-.advantage__list{-moz-column-gap:80px;column-gap:80px;display:grid;grid-template-columns:1fr 1fr;justify-content:center;list-style-type:none;margin:0;padding:0;row-gap:40px}@media screen and (max-width:1184px){.advantage__list{gap:40px}}@media screen and (max-width:984px){.advantage__list{gap:25px}}@media screen and (max-width:715px){.advantage__list{gap:20px;grid-template-columns:minmax(300px,1fr);justify-content:center;margin:0 auto}}
+.advantage__list{-moz-column-gap:80px;column-gap:80px;display:grid;grid-template-columns:1fr 1fr;justify-content:center;list-style-type:none;margin:0;padding:0;row-gap:40px}@media screen and (max-width:1184px){.advantage__list{gap:40px}}@media screen and (max-width:984px){.advantage__list{gap:25px}}@media screen and (max-width:715px){.advantage__list{gap:20px;grid-template-columns:minmax(300px,1fr);justify-content:center;margin:0 auto;max-width:90%}}
 /*!*************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/advantage/__item/advantage__item.css ***!
   \*************************************************************************************************************************************************************************/
@@ -218,6 +250,10 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace/__title/aboutPlace__title.css ***!
   \*****************************************************************************************************************************************************************************/
 .aboutPlace__title{font-size:28px;font-weight:700;margin:0 auto 35px;padding:0;text-align:center}@media screen and (max-width:1184px){.aboutPlace__title{margin-bottom:30px}}@media screen and (max-width:984px){.aboutPlace__title{margin-bottom:20px}}
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace/__subtitle/aboutPlace__subtitle.css ***!
+  \***********************************************************************************************************************************************************************************/
+.aboutPlace__subtitle{font-size:25px;font-weight:600;line-height:1.2;margin:0 0 25px;opacity:.4;padding:0;text-align:center;text-transform:uppercase}@media screen and (max-width:1184px){.aboutPlace__subtitle{margin-bottom:10px}}@media screen and (max-width:715px){.aboutPlace__subtitle{align-self:center;margin-bottom:20px;margin-top:0}}
 /*!***************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace/__title-city/aboutPlace__title-city.css ***!
   \***************************************************************************************************************************************************************************************/
@@ -237,11 +273,11 @@
 /*!***************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace/__item/aboutPlace__item.css ***!
   \***************************************************************************************************************************************************************************/
-.aboutPlace__item{box-sizing:border-box;display:flex;gap:5px;justify-content:space-around;list-style-type:none;margin:0;max-width:100%;padding:0}@media screen and (max-width:984px){.aboutPlace__item{flex-wrap:wrap;justify-content:center}}@media screen and (max-width:715px){.aboutPlace__item{display:grid;gap:15px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}}
+.aboutPlace__item{box-sizing:border-box;display:flex;gap:5px;justify-content:space-around;list-style-type:none;margin:15px 0 0;max-width:100%;padding:0}@media screen and (max-width:984px){.aboutPlace__item{flex-wrap:wrap;justify-content:center;margin:10px 0 0}}@media screen and (max-width:715px){.aboutPlace__item{display:grid;gap:15px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}}
 /*!*****************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace/__image/aboutPlace__image.css ***!
   \*****************************************************************************************************************************************************************************/
-.aboutPlace__image{border-radius:2px;box-sizing:border-box;margin:0;max-height:100%;max-width:100%;min-height:230px;padding:0;transition:.5s;width:230px}.aboutPlace__photo:last-of-type{margin-right:0}.aboutPlace__image:hover{transform:scale(1.15);z-index:10}@media screen and (max-width:715px){.aboutPlace__image{width:100%}.aboutPlace__image:hover{transform:none}}@media screen and (max-width:320px){.aboutPlace__image{border-radius:0}}
+.aboutPlace__image{border-radius:2px;box-sizing:border-box;margin:0;max-height:100%;padding:0;transition:.5s;width:19.5%}.aboutPlace__photo:last-of-type{margin-right:0}.aboutPlace__image:hover{transform:scale(1.15);z-index:10}@media screen and (max-width:984px){.aboutPlace__image{width:25%}}@media screen and (max-width:715px){.aboutPlace__image{width:100%}.aboutPlace__image:hover{transform:none}}@media screen and (max-width:320px){.aboutPlace__image{border-radius:0}}
 /*!**************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace/__image/_one/aboutPlace__image_one.css ***!
   \**************************************************************************************************************************************************************************************/
@@ -249,7 +285,7 @@
 /*!**************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace/__image/_two/aboutPlace__image_two.css ***!
   \**************************************************************************************************************************************************************************************/
-.aboutPlace__image_two{background:url(640e24557f9087512e2e.jpg) no-repeat 50%/cover}
+.aboutPlace__image_two{margin:0}@media screen and (max-width:715px){.aboutPlace__image_five{display:none}}
 /*!******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace/__image/_three/aboutPlace__image_three.css ***!
   \******************************************************************************************************************************************************************************************/
@@ -309,7 +345,7 @@
 /*!***************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/video/__container/video__container.css ***!
   \***************************************************************************************************************************************************************************/
-.video__container{display:flex;flex-direction:column;justify-content:center;margin:40px auto;padding:0}@media screen and (max-width:1184px){.video__container{flex-direction:column;margin:30px 0 40px}}@media screen and (max-width:984px){.video__container{margin:20px 0 40px}}@media screen and (max-width:715px){.video__container{margin:20px 0 0}}
+.video__container{align-items:center;background:url(ef49eebd77bbdb7b23d2.png) no-repeat 50%/cover;box-sizing:border-box;display:flex;justify-content:space-between;margin:0;min-height:740px;padding:70px 50px;position:relative;text-decoration:none;z-index:1}.video__container:before{background-color:#fff;bottom:0;content:"";left:0;opacity:.7;position:absolute;right:0;top:0;transition:.5s;z-index:-1}.video__container:hover:before{opacity:.9}@media screen and (max-width:1124px){.video__container{min-height:640px;padding:50px 30px}}@media screen and (max-width:984px){.video__container{background:none;height:100%;justify-content:center;min-height:-moz-fit-content;min-height:fit-content;padding:0;width:100%}}
 /*!*******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/video/__title/video__title.css ***!
   \*******************************************************************************************************************************************************************/
@@ -317,11 +353,11 @@
 /*!*****************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/video/__icon/video__icon.css ***!
   \*****************************************************************************************************************************************************************/
-.video__icon{align-self:center;background:url(5e27a808b1a32ba30eda.png) no-repeat 50%;background-size:contain;min-height:80px;position:static;width:80px}@media screen and (max-width:1184px){.video__icon{min-height:50px;width:50px}}
+.video__icon{align-self:center;background:url(340f06be6b546ea0e3b5.png) no-repeat 50%;background-size:cover;height:200px;max-height:100%;max-width:100%;width:580px}@media screen and (max-width:1280px){.video__icon{height:180px;width:500px}}@media screen and (max-width:1184px){.video__icon{height:160px;width:450px}}@media screen and (max-width:984px){.video__icon{display:none}}
 /*!*********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/video/__iframe/video__iframe.css ***!
   \*********************************************************************************************************************************************************************/
-.video__iframe{align-self:flex-start;box-sizing:border-box;height:326px;margin:40px 0 0;max-height:100%;max-width:100%;padding:0;width:582px}@media screen and (max-width:984px){.video__iframe{align-self:center;margin:20px 0}}
+.video__iframe{align-self:center;box-sizing:border-box;height:360px;margin:0;max-height:100%;max-width:47%;padding:0;width:640px;z-index:10}.video__iframe:hover{cursor:pointer}@media screen and (max-width:984px){.video__iframe{align-self:center;margin:20px 0;max-width:100%}}@media screen and (max-width:715px){.video__iframe{width:100%}}
 /*!*************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/map/__card/map__card.css ***!
   \*************************************************************************************************************************************************************/
@@ -333,7 +369,7 @@
 /*!***************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/map/__title/map__title.css ***!
   \***************************************************************************************************************************************************************/
-.map__title{margin:30px auto 20px;max-width:900px;padding:0;text-align:center}@media screen and (max-width:1184px){.map_title{font-size:28px;margin-top:20px;width:700px}}@media screen and (max-width:984px){.map__title{font-size:24px;margin-top:13px;width:700px}}@media screen and (max-width:715px){.map__title{font-size:17px;margin-bottom:15px;margin-bottom:10px;margin-top:10px;width:310px}}
+.map__title{margin:30px auto 20px;max-width:900px;padding:0;text-align:center}@media screen and (max-width:1184px){.map_title{font-size:28px;margin-top:20px;width:700px}}@media screen and (max-width:984px){.map__title{font-size:24px;margin-top:13px;width:700px}}@media screen and (max-width:715px){.map__title{font-size:17px;margin-bottom:15px;margin-bottom:20px;margin-top:10px;width:310px}}
 /*!***************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/map/__place/map__place.css ***!
   \***************************************************************************************************************************************************************/
@@ -422,6 +458,10 @@
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__container/aboutCity__container.css ***!
   \***********************************************************************************************************************************************************************************/
 .aboutCity__container{display:flex;flex-direction:column;justify-content:flex-start;margin:0;max-width:47%;padding:0}@media screen and (max-width:984px){.aboutCity__container{max-width:100%}}@media screen and (max-width:715px){.aboutCity__container{margin:0 auto;max-width:90%}}
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__attractions/aboutCity__attractions.css ***!
+  \***************************************************************************************************************************************************************************************/
+.aboutCity__attractions{flex-direction:row-reverse;max-height:579px}
 /*!*********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__subtitle/aboutCity__subtitle.css ***!
   \*********************************************************************************************************************************************************************************/
@@ -429,23 +469,39 @@
 /*!***************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__title/aboutCity__title.css ***!
   \***************************************************************************************************************************************************************************/
-.aboutCity__title{margin:25px 0;padding:0;text-transform:none}@media screen and (max-width:984px){.aboutCity__title{align-self:center;margin:0 0 15px}}
+.aboutCity__title{margin:0 0 25px;max-width:450px;padding:0;text-transform:none}@media screen and (max-width:984px){.aboutCity__title{align-self:center;margin:0 0 15px}}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__title-item/aboutCity__title-item.css ***!
+  \*************************************************************************************************************************************************************************************/
+.aboutCity__title-item{text-transform:uppercase}
 /*!*************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__text/aboutCity__text.css ***!
   \*************************************************************************************************************************************************************************/
 .aboutCity__text{text-align:justify}
+/*!*************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__item/aboutCity__item.css ***!
+  \*************************************************************************************************************************************************************************/
+.aboutCity__item{display:flex;justify-content:space-between;width:47%}
 /*!***************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__place/aboutCity__place.css ***!
   \***************************************************************************************************************************************************************************/
-.aboutCity__place{display:flex;flex-direction:column}
+.aboutCity__place{align-content:center;display:grid;gap:20px;grid-template-columns:repeat(auto-fit,90%);margin:0}@media screen and (max-width:1184px){.aboutCity__place{max-width:100%;padding-right:40px;width:60%}}@media screen and (max-width:984px){.aboutCity__place{margin:0 auto;max-width:90%;padding:0}}@media screen and (max-width:715px){.aboutCity__place{align-self:center;display:flex;flex-direction:column;margin:0;width:100%}}
 /*!*****************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__images/aboutCity__images.css ***!
   \*****************************************************************************************************************************************************************************/
-.aboutCity__images{box-sizing:border-box;display:grid;gap:15px;grid-template-columns:1fr 1fr;width:47%}@media screen and (max-width:984px){.aboutCity__images{width:100%}}@media screen and (max-width:715px){.aboutCity__images{border-radius:0;box-shadow:none;grid-template-columns:1fr;width:100%}}
+.aboutCity__images{box-sizing:border-box;display:grid;gap:15px;grid-template-columns:1fr 1fr;height:-moz-fit-content;height:fit-content;width:47%}@media screen and (max-width:984px){.aboutCity__images{width:100%}}@media screen and (max-width:715px){.aboutCity__images{border-radius:0;box-shadow:none;grid-template-columns:1fr;width:100%}}
 /*!***************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__image/aboutCity__image.css ***!
   \***************************************************************************************************************************************************************************/
-.aboutCity__image{border-radius:3px;box-shadow:0 5px 10px 0 rgba(0,0,0,.5);display:block;height:282px;margin:0;max-height:100%;-o-object-fit:cover;object-fit:cover;padding:0;width:100%}@media screen and (max-width:715px){.aboutCity__image{border-radius:0;box-shadow:none;max-width:100%}}
+.aboutCity__image{border-radius:3px;box-shadow:0 5px 10px 0 rgba(0,0,0,.5);display:block;margin:0;max-height:100%;-o-object-fit:cover;object-fit:cover;padding:0;transition:.5s;width:100%}.aboutCity__image:hover{transform:scale(1.15);z-index:10}@media screen and (max-width:984px){.aboutCity__image{height:282px}.aboutCity__image:nth-of-type(2n){display:none}}@media screen and (max-width:715px){.aboutCity__image{border-radius:0;box-shadow:none;max-width:100%}}
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__image-big/aboutCity__image-big.css ***!
+  \***********************************************************************************************************************************************************************************/
+.aboutCity__image-big{align-self:stretch;grid-row-start:span 2;justify-content:center}
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__image-item/aboutCity__image-item.css ***!
+  \*************************************************************************************************************************************************************************************/
+.aboutCity__image-item{border-radius:3px;box-shadow:0 5px 10px 0 rgba(0,0,0,.5);margin:0;-o-object-fit:cover;object-fit:cover;padding:0;width:100%}
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutCity/__image-element/aboutCity__image-element.css ***!
   \*******************************************************************************************************************************************************************************************/
@@ -453,11 +509,11 @@
 /*!***************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/attractions/__container/attractions__container.css ***!
   \***************************************************************************************************************************************************************************************/
-.attractions__container{display:flex;flex-direction:column;margin:0;max-width:100%;padding:0;width:430px}@media screen and (max-width:1184px){.attractions__container{max-width:40%}}@media screen and (max-width:984px){.attractions__container{margin:0 auto;max-width:900px;width:90%}}
+.attractions__container{display:flex;flex-direction:column;margin:0;max-width:47%;padding:0}@media screen and (max-width:984px){.attractions__container{margin:0 auto;max-width:90%}}
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/attractions/__image/attractions__image.css ***!
   \*******************************************************************************************************************************************************************************/
-.attractions__image{border-radius:3px;box-shadow:0 5px 10px 0 rgba(0,0,0,.5);display:block;margin:0;max-height:100%;max-width:330px;-o-object-fit:cover;object-fit:cover;width:100%}@media screen and (max-width:715px){.attractions__image{border-radius:0;box-shadow:none;max-width:715px}}
+.attractions__image{border-radius:3px;box-shadow:0 5px 10px 0 rgba(0,0,0,.5);margin:0;min-height:100%;min-width:100%;-o-object-fit:cover;object-fit:cover;transition:.5s;width:100%}.attractions__image:hover{transform:scale(1.15);z-index:10}@media screen and (max-width:715px){.attractions__image{border-radius:0;box-shadow:none;max-width:715px}}
 /*!***********************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/attractions/__image-element/attractions__image-element.css ***!
   \***********************************************************************************************************************************************************************************************/
@@ -469,7 +525,7 @@
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/attractions/__place/attractions__place.css ***!
   \*******************************************************************************************************************************************************************************/
-.attractions__place{display:grid;gap:20px;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;height:-moz-fit-content;height:fit-content;margin:0;padding:0 70px 0 0}@media screen and (max-width:1184px){.attractions__place{max-width:100%;padding-right:40px;width:60%}}@media screen and (max-width:984px){.attractions__place{margin:0 auto;max-width:90%;padding:0}}@media screen and (max-width:715px){.attractions__place{align-self:center;display:flex;flex-direction:column;margin:0;width:100%}}
+.attractions__place{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));height:-moz-fit-content;height:fit-content;margin:0;max-width:47%;padding:0}@media screen and (max-width:1184px){.attractions__place{max-width:100%;padding-right:40px;width:60%}}@media screen and (max-width:984px){.attractions__place{margin:0 auto;max-width:100%;padding:0}}@media screen and (max-width:715px){.attractions__place{align-self:center;display:flex;flex-direction:column;margin:0;width:100%}}
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/attractions/__title/attractions__title.css ***!
   \*******************************************************************************************************************************************************************************/
@@ -489,7 +545,7 @@
 /*!*************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace-city/__text/aboutPlace-city__text.css ***!
   \*************************************************************************************************************************************************************************************/
-.aboutPlace-city__text{font-size:16px;margin:0 0 15px;max-width:900px;padding:0;text-align:center}@media screen and (max-width:715px){.aboutPlace-city__text{text-align:justify}}
+.aboutPlace-city__text{margin:0 0 15px;padding:0;text-align:justify}@media screen and (max-width:715px){.aboutPlace-city__text{text-align:justify}}
 /*!***********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutBeach/__subtitle/aboutBeach__subtitle.css ***!
   \***********************************************************************************************************************************************************************************/
@@ -497,7 +553,7 @@
 /*!*************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutBeach/__container/aboutBeach__container.css ***!
   \*************************************************************************************************************************************************************************************/
-.aboutBeach__container{display:grid;gap:15px;grid-template-columns:57% 20% 20%;list-style-type:none;margin:0 auto;max-width:1120px;padding:0}@media screen and (max-width:984px){.aboutBeach__container{align-items:center;gap:20px;grid-template-columns:repeat(auto-fit,minmax(300px,700px));justify-content:center}}
+.aboutBeach__container{display:grid;gap:35px;grid-template-columns:4fr 1fr 1fr;list-style-type:none;margin:0 auto;padding:0}@media screen and (max-width:984px){.aboutBeach__container{align-items:center;gap:20px;grid-template-columns:repeat(auto-fit,minmax(300px,700px));justify-content:center}}
 /*!***************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutBeach/__item/aboutBeach__item.css ***!
   \***************************************************************************************************************************************************************************/
@@ -509,11 +565,11 @@
 /*!*****************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutBeach/__place/aboutBeach__place.css ***!
   \*****************************************************************************************************************************************************************************/
-.aboutBeach__place{display:flex;flex-direction:column;margin:0;padding:0 0 0 15px}@media screen and (max-width:984px){.aboutBeach__place{margin-right:25px;padding:0}}@media screen and (max-width:525px){.aboutBeach__place{align-self:center;font-size:16px;margin:15px}}
+.aboutBeach__place{display:flex;flex-direction:column;margin:0;padding:0 0 0 15px}@media screen and (max-width:984px){.aboutBeach__place{margin-right:25px;padding:0}}@media screen and (max-width:525px){.aboutBeach__place{align-self:flex-start;font-size:16px;margin:15px}}
 /*!*****************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutBeach/__image/aboutBeach__image.css ***!
   \*****************************************************************************************************************************************************************************/
-.aboutBeach__image{border-radius:3px;box-shadow:0 5px 10px 0 rgba(0,0,0,.4);box-sizing:border-box;height:250px;margin:10px 0 0;max-height:100%;max-width:100%;-o-object-fit:cover;object-fit:cover;padding:0;width:100%}@media screen and (max-width:984px){.aboutBeach__image{margin-top:0}}@media screen and (max-width:715px){.aboutBeach__image{border-radius:0;box-shadow:none}}
+.aboutBeach__image{border-radius:3px;box-shadow:0 5px 10px 0 rgba(0,0,0,.4);box-sizing:border-box;height:250px;margin:10px 0 0;max-height:100%;max-width:100%;-o-object-fit:cover;object-fit:cover;padding:0;transition:.5s;width:100%}.aboutBeach__image:hover{transform:scale(1.15);z-index:10}@media screen and (max-width:984px){.aboutBeach__image{margin-top:0}}@media screen and (max-width:715px){.aboutBeach__image{border-radius:0;box-shadow:none}}
 /*!*************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutStudy/__container/aboutStudy__container.css ***!
   \*************************************************************************************************************************************************************************************/
@@ -541,7 +597,7 @@
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutStudy/__images/aboutStudy__images.css ***!
   \*******************************************************************************************************************************************************************************/
-.aboutStudy__images{display:flex;flex-direction:column;gap:10px;margin:0;max-width:47%;padding:0}@media screen and (max-width:984px){.aboutStudy__images{max-width:100%}}@media screen and (max-width:715px){.aboutStudy__images{width:100%}}
+.aboutStudy__images{display:flex;flex-direction:column;gap:10px;margin:0;max-width:47%;padding:0}@media screen and (max-width:984px){.aboutStudy__images{max-width:100%}}@media screen and (max-width:715px){.aboutStudy__images{gap:15px;width:100%}}
 /*!*****************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutStudy/__image/aboutStudy__image.css ***!
   \*****************************************************************************************************************************************************************************/
