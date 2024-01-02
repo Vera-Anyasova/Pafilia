@@ -1,7 +1,7 @@
 .aboutProject {
   display: flex;
   box-sizing: border-box;
-  margin: 70px 0 70px 50px;
+  margin: 70px 50px;
   padding: 0;
   justify-content: space-between;
 }
