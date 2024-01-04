@@ -44,15 +44,15 @@
     width: 560px;
     height: 315px;
     max-width: 100%;
-    margin: 20px 0 20px;
+    margin: 20px 0;
     align-self: center;
     /* width: 550px;
     height: 413px; */
   }
 }
 
-/* @media screen and (max-width: 715px) {
+@media screen and (max-width: 715px) {
   .video__iframe {
-    width: 100%;
+    margin: 0;
   }
-} */
+}

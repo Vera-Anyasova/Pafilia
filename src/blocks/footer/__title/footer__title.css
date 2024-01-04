@@ -25,3 +25,10 @@
     margin-bottom: 15px;
   }
 }
+
+@media screen and (max-width: 715px) {
+  .footer__title {
+    font-size: 19px;
+    margin-bottom: 15px;
+  }
+}

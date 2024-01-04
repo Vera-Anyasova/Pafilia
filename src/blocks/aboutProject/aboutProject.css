@@ -41,5 +41,6 @@
 @media screen and (max-width: 715px) {
   .aboutProject {
     width: 100%;
+    margin: 20px auto;
   }
 }
