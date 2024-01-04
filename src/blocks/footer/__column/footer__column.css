@@ -1,0 +1,37 @@
+.footer__column {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__column {
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .footer__column {
+    width: 23%;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .footer__column {
+    width: 27%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .footer__column {
+    width: 45%;
+    max-width: fit-content;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__column {
+    width: 100%;
+  }
+}

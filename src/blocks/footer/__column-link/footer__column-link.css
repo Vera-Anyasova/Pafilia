@@ -1,0 +1,16 @@
+.footer__column-link {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+.footer__column-link:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 984px) {
+  .footer__column-link {
+    margin-bottom: 10px;
+  }
+}

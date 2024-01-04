@@ -162,6 +162,15 @@
 @import url(../blocks/education/__image-neapolis/education__image-neapolis.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__element/footer__element.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/footer/__phone/footer__phone.css);
+@import url(../blocks/footer/__email/footer__email.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/elements/__list/elements__list.css);

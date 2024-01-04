@@ -1,5 +1,7 @@
 .aboutBeach__image_small {
   padding: 0;
+  /* display: block; */
+  object-position: right;
 }
 
 @media screen and (max-width: 984px) {
