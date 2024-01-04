@@ -109,7 +109,7 @@
 /*!******************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/footer.css ***!
   \******************************************************************************************************************************************************/
-.footer{align-items:center;background-color:#000000cc;box-sizing:border-box;display:flex;justify-content:space-between;margin:0 auto;min-height:300px;padding:0;position:relative;width:100%;z-index:0}@media screen and (max-width:984px){.footer{min-height:250px}}@media screen and (max-width:715px){.footer{min-height:200px}}@media screen and (max-width:525px){.footer{min-height:150px}}
+.footer{align-items:center;background-color:#000000cc;box-sizing:border-box;display:flex;justify-content:space-between;min-height:-moz-fit-content;min-height:fit-content;padding:40px 30px;position:relative;width:100%;z-index:0}@media screen and (max-width:1280px){.footer{padding:30px}}@media screen and (max-width:1184px){.footer{padding:30px 25px}}@media screen and (max-width:984px){.footer{padding:25px 30px}}@media screen and (max-width:715px){.footer{padding:15px 10px}}@media screen and (max-width:450px){.footer{padding-left:35px}}
 /*!****************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/popup.css ***!
   \****************************************************************************************************************************************************/
@@ -653,7 +653,43 @@
 /*!*************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__element/footer__element.css ***!
   \*************************************************************************************************************************************************************************/
-.footer__element{max-height:100%;max-width:100%;-o-object-fit:cover;object-fit:cover;width:40%;z-index:20}@media screen and (max-width:525px){.footer__element{width:55%}}
+.footer__element{align-self:center;height:50%;max-width:100%;-o-object-fit:cover;object-fit:cover;width:35%}@media screen and (max-width:715px){.footer__element{width:45%}}@media screen and (max-width:450px){.footer__element{width:80%}}
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__item/footer__item.css ***!
+  \*******************************************************************************************************************************************************************/
+.footer__item{display:flex;justify-content:space-around}@media screen and (max-width:984px){.footer__item{justify-content:space-between}}@media screen and (max-width:715px){.footer__item{flex-wrap:wrap;gap:25px;justify-content:space-around}}@media screen and (max-width:450px){.footer__item{gap:30px;justify-content:flex-start}}
+/*!***********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__column/footer__column.css ***!
+  \***********************************************************************************************************************************************************************/
+.footer__column{display:flex;flex-direction:column;justify-content:space-between;width:20%}@media screen and (max-width:1280px){.footer__column{width:22%}}@media screen and (max-width:1184px){.footer__column{width:23%}}@media screen and (max-width:984px){.footer__column{width:27%}}@media screen and (max-width:715px){.footer__column{max-width:-moz-fit-content;max-width:fit-content;width:45%}}@media screen and (max-width:450px){.footer__column{width:100%}}
+/*!*************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__address/footer__address.css ***!
+  \*************************************************************************************************************************************************************************/
+.footer__address{height:100%;margin:0 0 30px;min-height:-moz-fit-content;min-height:fit-content;padding:0}@media screen and (max-width:1184px){.footer__address{margin-bottom:20px}}
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__text/footer__text.css ***!
+  \*******************************************************************************************************************************************************************/
+.footer__text{color:#fff;font-size:16px;line-height:1.35;margin:0;padding:0}@media screen and (max-width:1184px){.footer__text{font-size:15px;line-height:1.3}}@media screen and (max-width:984px){.footer__text{font-size:14px}}@media screen and (max-width:715px){.footer__text{font-size:15px}}
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__column-link/footer__column-link.css ***!
+  \*********************************************************************************************************************************************************************************/
+.footer__column-link{align-items:center;display:flex;margin:0 0 15px;padding:0}.footer__column-link:last-of-type{margin-bottom:0}@media screen and (max-width:984px){.footer__column-link{margin-bottom:10px}}
+/*!*********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__title/footer__title.css ***!
+  \*********************************************************************************************************************************************************************/
+.footer__title{color:#f78e2f;font-size:22px;font-weight:400;line-height:1.2;margin:0 0 20px;padding:0}@media screen and (max-width:1280px){.footer__title{font-size:20px}}@media screen and (max-width:1184px){.footer__title{font-size:19px}}@media screen and (max-width:984px){.footer__title{font-size:18px;margin-bottom:15px}}
+/*!*******************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__icon/footer__icon.css ***!
+  \*******************************************************************************************************************************************************************/
+.footer__icon{color:#fff;height:100%;margin:0 15px 0 0;-o-object-fit:cover;object-fit:cover;padding:0;width:25px}@media screen and (max-width:1184px){.footer__icon{margin-right:8px;width:24px;width:23px}}
+/*!*********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__phone/footer__phone.css ***!
+  \*********************************************************************************************************************************************************************/
+.footer__phone{color:#f78e2f;font-size:16px;text-decoration:none}@media screen and (max-width:1184px){.footer__phone{font-size:15px}}@media screen and (max-width:984px){.footer__phone{font-size:14px}}@media screen and (max-width:715px){.footer__phone{font-size:15px}}
+/*!*********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__email/footer__email.css ***!
+  \*********************************************************************************************************************************************************************/
+.footer__email{color:#f78e2f;font-size:16px;text-decoration:none}@media screen and (max-width:1184px){.footer__email{font-size:15px}}@media screen and (max-width:984px){.footer__email{font-size:14px}}@media screen and (max-width:715px){.footer__email{font-size:15px}}
 /*!*******************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/footer/__logo/footer__logo.css ***!
   \*******************************************************************************************************************************************************************/
@@ -753,7 +789,7 @@
 /*!******************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutBeach/__image/_small/aboutBeach__image_small.css ***!
   \******************************************************************************************************************************************************************************************/
-.aboutBeach__image_small{padding:0}@media screen and (max-width:984px){.aboutBeach__image_small{max-width:220px}}@media screen and (max-width:525px){.aboutBeach__image_small{height:100%;margin:0;max-width:525px;width:100%}}
+.aboutBeach__image_small{-o-object-position:right;object-position:right;padding:0}@media screen and (max-width:984px){.aboutBeach__image_small{max-width:220px}}@media screen and (max-width:525px){.aboutBeach__image_small{height:100%;margin:0;max-width:525px;width:100%}}
 /*!*********************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/infrastructure/__image/image_size-m/infrastructure__image_size-m.css ***!
   \*********************************************************************************************************************************************************************************************************/
