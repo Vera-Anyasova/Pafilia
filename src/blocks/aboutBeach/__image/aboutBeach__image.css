@@ -27,5 +27,6 @@
   .aboutBeach__image {
     border-radius: 0;
     box-shadow: none;
+    transform: none;
   }
 }
