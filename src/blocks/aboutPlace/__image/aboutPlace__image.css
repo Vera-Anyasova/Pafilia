@@ -21,9 +21,17 @@
   z-index: 10;
 }
 
+@media screen and (max-width: 1280px) {
+  .aboutPlace__image {
+    height: 300px;
+    max-height: 100%;
+  }
+}
+
 @media screen and (max-width: 984px) {
   .aboutPlace__image {
     width: 25%;
+    height: auto;
   }
 }
 
@@ -32,13 +40,6 @@
     width: 100%;
   }
 }
-
-/* @media screen and (max-width: 425px) {
-  .aboutPlace__image {
-    width: 425px;
-    height: 400px;
-  }
-} */
 
 @media screen and (max-width: 715px) {
   .aboutPlace__image:hover {
