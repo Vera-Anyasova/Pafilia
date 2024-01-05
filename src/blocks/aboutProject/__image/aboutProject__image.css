@@ -10,14 +10,21 @@
 
 @media screen and (max-width: 1280px) {
   .aboutProject__image {
-    max-height: 460px;
-    min-height: fit-content;
+    height: 460px;
+    max-height: 100%;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutProject__image {
+    height: 400px;
   }
 }
 
 @media screen and (max-width: 984px) {
   .aboutProject__image {
     width: 100%;
+    height: auto;
   }
 }
 
