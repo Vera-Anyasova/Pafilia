@@ -5,6 +5,18 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1280px) {
+  .aboutProject__title {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutProject__title {
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 984px) {
   .aboutProject__title {
     max-width: 450px;

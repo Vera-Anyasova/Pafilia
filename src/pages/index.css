@@ -5,7 +5,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/profile/profile.css);
-@import url(../blocks/profile-video/profile-video.css);
+@import url(../blocks/profile-card/profile-card.css);
 @import url(../blocks/aboutProject/aboutProject.css);
 @import url(../blocks/aboutProject-plaza/aboutProject-plaza.css);
 @import url(../blocks/aboutProject-place/aboutProject-place.css);
@@ -24,7 +24,6 @@
 @import url(../blocks/education/education.css);
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/hidden/hidden.css);
-@import url(../blocks/video/video.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/header/__item/header__item.css);
@@ -34,11 +33,10 @@
 @import url(../blocks/profile/__photo/profile__photo.css);
 @import url(../blocks/profile/__container/profile__container.css);
 @import url(../blocks/profile/__element/profile__element.css);
-@import url(../blocks/profile/__element-plaza/profile__element-plaza.css);
-@import url(../blocks/profile-video/__place-video/profile__place-video.css);
-@import url(../blocks/profile-video/__photo-video/profile__photo-video.css);
-@import url(../blocks/profile-video/__container-video/profile__container-video.css);
-@import url(../blocks/profile-video/__element-video/profile__element-video.css);
+@import url(../blocks/profile-card/__container/profile-card__container.css);
+@import url(../blocks/profile-card/__place/profile-card__place.css);
+@import url(../blocks/profile-card/__photo/profile-card__photo.css);
+@import url(../blocks/profile-card/__element/profile-card__element.css);
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__subtitle/section__subtitle.css);
 @import url(../blocks/section/__text/section__text.css);
@@ -49,6 +47,7 @@
 @import url(../blocks/aboutProject/__select/aboutProject__select.css);
 @import url(../blocks/aboutProject/__image/aboutProject__image.css);
 @import url(../blocks/aboutProject/__place/aboutProject__place.css);
+@import url(../blocks/aboutProject/__video-iframe/aboutProject__video-iframe.css);
 @import url(../blocks/aboutProject-place/__title/aboutProject-place__title.css);
 @import url(../blocks/aboutProject-place/__text/aboutProject-place__text.css);
 @import url(../blocks/description/__image/description__image.css);
@@ -84,10 +83,6 @@
 @import url(../blocks/infrastructure/__text-place/infrastructure__text-place.css);
 @import url(../blocks/infrastructure/__image/infrastructure__image.css);
 @import url(../blocks/infrastructure/__place/infrastructure__place.css);
-@import url(../blocks/video/__container/video__container.css);
-@import url(../blocks/video/__title/video__title.css);
-@import url(../blocks/video/__icon/video__icon.css);
-@import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/map/__card/map__card.css);
 @import url(../blocks/map/__image/map__image.css);
 @import url(../blocks/map/__title/map__title.css);

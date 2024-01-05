@@ -1,35 +1,39 @@
-.profile__element-plaza {
-  background: url(../../../images/photo-element-black1.png) no-repeat center /
-    cover;
+.profile-card__element {
+  background: url(../../../images/photo-element.png) no-repeat center / cover;
   width: 550px;
   height: 200px;
   position: absolute;
   top: 30%;
-  left: 50px;
+  right: 5%;
   z-index: 15;
   margin: 0;
   padding: 0;
 }
 
-@media screen and (max-width: 1184px) {
-  .profile__element-plaza {
+@media screen and (max-width: 1280px) {
+  .profile-card__element {
     width: 470px;
     height: 160px;
-    top: 30%;
-    left: 30px;
+    right: 3%;
+  }
+}
+@media screen and (max-width: 1184px) {
+  .profile-card__element {
+    width: 470px;
+    height: 160px;
+    right: 2%;
   }
 }
 
 @media screen and (max-width: 984px) {
-  .profile__element-plaza {
+  .profile-card__element {
     width: 400px;
     height: 140px;
-    left: 25px;
   }
 }
 
 @media screen and (max-width: 715px) {
-  .profile__element-plaza {
+  .profile-card__element {
     width: 360px;
     height: 130px;
     margin-left: auto;
@@ -41,7 +45,7 @@
 }
 
 @media screen and (max-width: 450px) {
-  .profile__element-plaza {
+  .profile-card__element {
     width: 300px;
     height: 105px;
   }

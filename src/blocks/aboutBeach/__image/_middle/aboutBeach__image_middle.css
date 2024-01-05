@@ -2,12 +2,6 @@
   padding: 0;
 }
 
-/* @media screen and (max-width: 984px) {
-  .aboutBeach__image_middle {
-    margin-left: 22px;
-  }
-} */
-
 @media screen and (max-width: 525px) {
   .aboutBeach__image_middle {
     max-width: 525px;
