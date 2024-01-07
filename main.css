@@ -577,7 +577,7 @@
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutStudy/__images/aboutStudy__images.css ***!
   \*******************************************************************************************************************************************************************************/
-.aboutStudy__images{display:flex;flex-direction:column;margin:0;max-width:47%;padding:0}@media screen and (max-width:984px){.aboutStudy__images{max-width:100%}}@media screen and (max-width:715px){.aboutStudy__images{width:100%}}
+.aboutStudy__images{display:flex;flex-direction:column;margin:0;padding:0;width:47%}@media screen and (max-width:984px){.aboutStudy__images{width:100%}}@media screen and (max-width:715px){.aboutStudy__images{width:100%}}
 /*!*****************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutStudy/__image/aboutStudy__image.css ***!
   \*****************************************************************************************************************************************************************************/
