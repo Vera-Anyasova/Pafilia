@@ -1,37 +1,49 @@
 .aboutBeach__item {
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 1184px) {
   .aboutBeach__item {
     width: fit-content;
     height: fit-content;
-    gap: 20px;
   }
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 1184px) {
   .aboutBeach__item:nth-of-type(2) {
     flex-direction: row;
   }
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 1184px) {
   .aboutBeach__item:nth-of-type(3) {
     flex-direction: row;
   }
 }
 
+/* @media screen and (max-width: 984px) {
+  .aboutBeach__item:nth-of-type(2) {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .aboutBeach__item:nth-of-type(3) {
+    flex-direction: column;
+  }
+} */
+
 @media screen and (max-width: 715px) {
   .aboutBeach__item:nth-of-type(2) {
+    flex-direction: row;
     margin-left: 15px;
   }
 }
 
 @media screen and (max-width: 715px) {
   .aboutBeach__item:nth-of-type(3) {
+    flex-direction: row;
     margin-left: 15px;
   }
 }

@@ -4,7 +4,7 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
-  margin: 0;
+  margin: 0 0 30px;
   padding: 0;
   box-sizing: border-box;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
@@ -13,8 +13,14 @@
 }
 
 .aboutBeach__image:hover {
-  transform: scale(1.15);
+  transform: scale(1.1);
   z-index: 10;
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutBeach__image {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 984px) {
@@ -23,10 +29,15 @@
   }
 }
 
+@media screen and (max-width: 984px) {
+  .aboutBeach__image:hover {
+    transform: none;
+  }
+}
+
 @media screen and (max-width: 715px) {
   .aboutBeach__image {
     border-radius: 0;
     box-shadow: none;
-    transform: none;
   }
 }

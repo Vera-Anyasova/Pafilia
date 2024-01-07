@@ -7,11 +7,17 @@
   padding: 0;
 }
 
+@media screen and (max-width: 1184px) {
+  .aboutBeach__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+  }
+}
+
 @media screen and (max-width: 984px) {
   .aboutBeach__container {
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 100%));
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    justify-content: flex-start;
   }
 }

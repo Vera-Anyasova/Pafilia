@@ -5,6 +5,18 @@
   padding: 0 0 0 15px;
 }
 
+@media screen and (max-width: 1184px) {
+  .aboutBeach__place {
+    padding-left: 35px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .aboutBeach__place {
+    padding-left: 20px;
+  }
+}
+
 @media screen and (max-width: 525px) {
   .aboutBeach__place {
     align-self: flex-start;
