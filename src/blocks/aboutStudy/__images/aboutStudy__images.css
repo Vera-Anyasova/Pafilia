@@ -1,7 +1,7 @@
 .aboutStudy__images {
   display: flex;
   flex-direction: column;
-  max-width: 47%;
+  width: 47%;
   /* gap: 10px; */
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 984px) {
   .aboutStudy__images {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
