@@ -13,6 +13,7 @@
   .infrastructure__place {
     /* width: 55%; */
     height: 430px;
+    gap: 15px;
   }
 }
 
