@@ -20,7 +20,7 @@
 @media screen and (max-width: 1184px) {
   .aboutBeach__item:nth-of-type(3) {
     flex-direction: row;
-    margin-top: 15px;
+    margin-top: 20px;
   }
 }
 
