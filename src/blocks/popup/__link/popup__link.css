@@ -1,6 +1,7 @@
 .popup__link {
   text-decoration: none;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
+  margin: 0;
 }
 
 .popup__link:hover {
@@ -9,5 +10,5 @@
 }
 
 .popup__link:last-of-type {
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
