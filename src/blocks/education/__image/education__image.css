@@ -12,6 +12,12 @@
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 1280px) {
+  .education__image {
+    height: 100%;
+  }
+}
+
 /* @media screen and (max-width: 1280px) {
   .education__image {
     max-width: 42%;

@@ -1,0 +1,21 @@
+.aboutStudy__image-school {
+  margin: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .aboutStudy__image-school {
+    height: 570px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutStudy__image-school {
+    height: 525px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .aboutStudy__image-school {
+    height: 100%;
+  }
+}

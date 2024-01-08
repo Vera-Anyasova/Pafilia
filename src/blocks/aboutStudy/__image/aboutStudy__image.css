@@ -8,7 +8,13 @@
 
 @media screen and (max-width: 1280px) {
   .aboutStudy__image {
-    max-height: 675px;
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutStudy__image {
+    height: 650px;
   }
 }
 
