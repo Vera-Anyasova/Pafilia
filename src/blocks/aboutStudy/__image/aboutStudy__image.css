@@ -7,11 +7,11 @@
   min-height: fit-content;
 }
 
-/* @media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .aboutStudy__image {
     max-height: 675px;
   }
-} */
+}
 
 @media screen and (max-width: 984px) {
   .aboutStudy__image {
