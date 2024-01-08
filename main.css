@@ -85,7 +85,7 @@
 /*!**************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutBeach/aboutBeach.css ***!
   \**************************************************************************************************************************************************************/
-.aboutBeach{align-items:center;display:flex;flex-direction:column;justify-content:center;margin:70px 50px;padding:0}@media screen and (max-width:1184px){.aboutBeach{margin:50px 30px}}@media screen and (max-width:984px){.aboutBeach{margin:40px auto;width:90%}}@media screen and (max-width:715px){.aboutBeach{margin:20 auto}}
+.aboutBeach{align-items:center;display:flex;flex-direction:column;justify-content:center;margin:70px 50px;padding:0}@media screen and (max-width:1184px){.aboutBeach{margin:50px 30px}}@media screen and (max-width:984px){.aboutBeach{margin:40px auto;width:90%}}@media screen and (max-width:715px){.aboutBeach{margin:20 auto;width:100%}}
 /*!**************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutStudy/aboutStudy.css ***!
   \**************************************************************************************************************************************************************/
@@ -541,11 +541,11 @@
 /*!***************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutBeach/__text/aboutBeach__text.css ***!
   \***************************************************************************************************************************************************************************/
-.aboutBeach__text{margin:0 0 5px;padding:0;text-align:justify}
+.aboutBeach__text{margin:0 0 5px;padding:0;text-align:justify}@media screen and (max-width:525px){.aboutBeach__text{margin:0 auto;width:90%}}
 /*!*****************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutBeach/__place/aboutBeach__place.css ***!
   \*****************************************************************************************************************************************************************************/
-.aboutBeach__place{display:flex;flex-direction:column;margin:0;padding:0 0 0 15px}@media screen and (max-width:1184px){.aboutBeach__place{padding-left:35px}}@media screen and (max-width:525px){.aboutBeach__place{align-self:flex-start;font-size:16px;margin:0 15px;padding:0}}
+.aboutBeach__place{display:flex;flex-direction:column;margin:0;padding:0 0 0 15px}@media screen and (max-width:1184px){.aboutBeach__place{padding-left:35px}}@media screen and (max-width:525px){.aboutBeach__place{align-self:flex-start;font-size:16px;margin:0 auto;padding:0;width:90%}}
 /*!*****************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutBeach/__image/aboutBeach__image.css ***!
   \*****************************************************************************************************************************************************************************/
