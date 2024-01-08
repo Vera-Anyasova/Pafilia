@@ -25,6 +25,7 @@
   .aboutProject__image {
     width: 100%;
     height: auto;
+    margin-top: 20px;
   }
 }
 
@@ -32,5 +33,6 @@
   .aboutProject__image {
     border-radius: 0;
     box-shadow: none;
+    margin-top: 15px;
   }
 }

@@ -8,9 +8,8 @@
   min-height: 100%; */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: fit-content;
   /* grid-template-columns: repeat(auto-fit, minmax(282px, max-content)); */
-  gap: 15px;
+  column-gap: 15px;
   /* justify-content: space-between; */
 }
 
@@ -46,6 +45,7 @@
 @media screen and (max-width: 715px) {
   .aboutCity__images {
     grid-template-columns: 1fr;
+    row-gap: 15px;
     width: 100%;
     border-radius: 0;
     box-shadow: none;
