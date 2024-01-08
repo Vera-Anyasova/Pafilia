@@ -1,8 +1,13 @@
 .popup__link {
   text-decoration: none;
+  margin-bottom: 15px;
 }
 
 .popup__link:hover {
   cursor: pointer;
   opacity: 0.7;
+}
+
+.popup__link:last-of-type {
+  margin-bottom: 0;
 }
