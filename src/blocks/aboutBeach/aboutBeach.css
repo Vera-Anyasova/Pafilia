@@ -22,6 +22,7 @@
 
 @media screen and (max-width: 715px) {
   .aboutBeach {
+    width: 100%;
     margin: 20 auto;
   }
 }
