@@ -701,7 +701,7 @@
 /*!*****************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__link/popup__link.css ***!
   \*****************************************************************************************************************************************************************/
-.popup__link{margin:0;padding-bottom:15px;text-decoration:none}.popup__link:hover{cursor:pointer;opacity:.7}.popup__link:last-of-type{padding-bottom:0}
+.popup__link{margin:0;padding-bottom:15px;text-decoration:none}.popup__link:hover{cursor:pointer;opacity:.7}.popup__link:last-of-type{padding-bottom:0}@media screen and (max-width:715px){.popup__menu{padding-bottom:20px}}
 /*!********************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace/__photo/_size-l/aboutPlace__photo_size-l.css ***!
   \********************************************************************************************************************************************************************************************/
