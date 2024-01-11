@@ -12,3 +12,9 @@
 .popup__link:last-of-type {
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 715px) {
+  .popup__menu {
+    padding-bottom: 20px;
+  }
+}
