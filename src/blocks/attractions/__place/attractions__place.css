@@ -16,11 +16,11 @@
   }
 }
 
-@media screen and (max-width: 1184px) {
+/* @media screen and (max-width: 1184px) {
   .attractions__place {
-    /* max-height: 470px; */
+    max-height: 470px;
   }
-}
+} */
 
 @media screen and (max-width: 984px) {
   .attractions__place {
@@ -43,5 +43,6 @@
     flex-direction: column;
     align-self: center;
     margin: 0;
+    gap: 0;
   }
 }

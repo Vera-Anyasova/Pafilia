@@ -41,13 +41,13 @@
   }
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 525px) {
   .aboutCity__image {
     margin-bottom: 15px;
   }
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 525px) {
   .aboutCity__image:last-of-type {
     margin-bottom: 0;
   }

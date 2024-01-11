@@ -1,5 +1,4 @@
 .aboutProject-place__title {
-  /* font-size: 38px; */
   margin-bottom: 30px;
   max-width: 500px;
 }
@@ -22,5 +21,6 @@
 @media screen and (max-width: 425px) {
   .aboutProject-place__title {
     font-size: 22px;
+    margin-bottom: 20px;
   }
 }

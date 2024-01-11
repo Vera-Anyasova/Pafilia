@@ -23,3 +23,9 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 715px) {
+  .attractions__title {
+    margin: 0 auto 20px;
+  }
+}

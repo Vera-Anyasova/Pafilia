@@ -9,13 +9,12 @@
   .aboutCity__title {
     margin: 0 0 15px;
     align-self: center;
+    text-align: center;
   }
 }
 
-/* @media screen and (max-width: 715px) {
+@media screen and (max-width: 715px) {
   .aboutCity__title {
-    margin: 0 0 15px;
-    font-size: 32px;
-    align-self: center;
+    margin-bottom: 20px;
   }
-} */
+}

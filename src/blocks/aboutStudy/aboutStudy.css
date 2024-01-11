@@ -36,5 +36,6 @@
 @media screen and (max-width: 715px) {
   .aboutStudy {
     width: 100%;
+    margin: 20px auto;
   }
 }

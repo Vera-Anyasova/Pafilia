@@ -22,6 +22,7 @@
 
 @media screen and (max-width: 715px) {
   .aboutPlace-city {
+    margin: 20px auto;
     width: 100%;
     background-color: #fff;
     padding: 0;

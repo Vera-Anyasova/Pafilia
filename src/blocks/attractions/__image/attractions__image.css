@@ -26,3 +26,15 @@
     border-radius: 0;
   }
 }
+
+@media screen and (max-width: 485px) {
+  .attractions__image {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .attractions__image:last-of-type {
+    margin-bottom: 0;
+  }
+}
