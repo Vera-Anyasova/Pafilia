@@ -20,12 +20,3 @@
     margin: 0 auto;
   }
 }
-
-/* @media screen and (max-width: 715px) {
-  .aboutProject__item {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 50px;
-  }
-} */

@@ -1,4 +1,4 @@
-.aboutPlace__title {
+.aboutPlace-city__title {
   font-size: 28px;
   font-weight: 700;
   text-align: center;
@@ -7,13 +7,21 @@
 }
 
 @media screen and (max-width: 1184px) {
-  .aboutPlace__title {
+  .aboutPlace-city__title {
     margin-bottom: 30px;
   }
 }
 
 @media screen and (max-width: 984px) {
-  .aboutPlace__title {
+  .aboutPlace-city__title {
+    max-width: 450px;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .aboutPlace-city__title {
+    max-width: 320px;
+    font-size: 22px;
   }
 }

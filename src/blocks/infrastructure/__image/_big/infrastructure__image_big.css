@@ -1,0 +1,9 @@
+.infrastructure__image_big {
+  grid-row-start: span 2;
+}
+
+@media screen and (max-width: 715px) {
+  .infrastructure__image_big {
+    display: none;
+  }
+}

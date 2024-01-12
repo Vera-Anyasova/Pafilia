@@ -31,18 +31,3 @@
     box-shadow: none;
   }
 }
-
-/* @media screen and (max-width: 984px) {
-  .aboutStudy__image {
-    max-height: 450px;
-    align-self: center;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .aboutStudy__image {
-    border-radius: 0;
-    box-shadow: 0;
-  }
-} */

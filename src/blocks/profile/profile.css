@@ -8,6 +8,12 @@
   position: relative;
 }
 
+@media screen and (max-width: 1280px) {
+  .profile {
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 1184px) {
   .profile {
     height: 600px;
@@ -17,7 +23,6 @@
 @media screen and (max-width: 984px) {
   .profile {
     height: 500px;
-    margin-bottom: 50px;
   }
 }
 

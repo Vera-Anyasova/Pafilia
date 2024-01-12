@@ -1,9 +1,0 @@
-.map__place-addition {
-  display: none;
-}
-
-@media screen and (max-width: 715px) {
-  .map__place-addition {
-    display: flex;
-  }
-}

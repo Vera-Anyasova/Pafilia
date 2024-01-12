@@ -1,9 +1,0 @@
-.map__container-main {
-  display: flex;
-}
-
-@media screen and (max-width: 715px) {
-  .map__container-main {
-    display: none;
-  }
-}

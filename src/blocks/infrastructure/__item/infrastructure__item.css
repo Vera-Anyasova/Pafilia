@@ -7,18 +7,6 @@
   padding: 0;
 }
 
-/* @media screen and (max-width: 1280px) {
-  .infrastructure__item {
-    max-width: 40%;
-  }
-}
-
-@media screen and (max-width: 1184px) {
-  .infrastructure__item {
-    max-width: 40%;
-  }
-} */
-
 @media screen and (max-width: 984px) {
   .infrastructure__item {
     max-width: 100%;

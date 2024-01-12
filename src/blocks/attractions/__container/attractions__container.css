@@ -6,12 +6,6 @@
   padding: 0;
 }
 
-/* @media screen and (max-width: 1184px) {
-  .attractions__container {
-    max-width: 40%;
-  }
-} */
-
 @media screen and (max-width: 984px) {
   .attractions__container {
     max-width: 100%;

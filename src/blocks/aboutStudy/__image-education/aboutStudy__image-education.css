@@ -1,0 +1,14 @@
+.aboutStudy__image-education {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.aboutStudy__image-education:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .aboutStudy__image-education {
+    height: auto;
+  }
+}

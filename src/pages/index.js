@@ -6,7 +6,6 @@ const buttonNext = document.querySelector(".element__next");
 const popup = document.querySelector(".popup");
 const buttonOpenPopup = document.querySelector(".header__menu");
 const links = document.querySelectorAll(".popup__link");
-// const link = document.querySelectorAll(".popup__link");
 
 const cards = Array.from(cardList.children);
 

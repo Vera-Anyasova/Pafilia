@@ -6,25 +6,6 @@
   padding: 0;
 }
 
-/* @media screen and (max-width: 984px) {
-  .aboutStudy__container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 715px) {
-  .aboutStudy__container {
-    padding: 0 20px;
-  }
-}
-
-@media screen and (max-width: 525px) {
-  .aboutStudy__container {
-    padding: 0 10px;
-  }
-} */
-
 @media screen and (max-width: 984px) {
   .aboutStudy__container {
     max-width: 100%;
@@ -35,6 +16,7 @@
 
 @media screen and (max-width: 715px) {
   .aboutStudy__container {
+    max-width: 90%;
     margin: 0 auto;
   }
 }

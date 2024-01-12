@@ -1,9 +1,0 @@
-.aboutPlace__image_two {
-  margin: 0;
-}
-
-@media screen and (max-width: 715px) {
-  .aboutPlace__image_five {
-    display: none;
-  }
-}
