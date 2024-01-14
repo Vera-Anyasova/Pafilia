@@ -9,12 +9,6 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1184px) {
-  .aboutPlace-city__subtitle {
-    margin-bottom: 10px;
-  }
-}
-
 @media screen and (max-width: 715px) {
   .aboutPlace-city__subtitle {
     margin-top: 0;
