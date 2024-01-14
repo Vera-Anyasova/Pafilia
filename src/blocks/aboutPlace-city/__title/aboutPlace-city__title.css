@@ -1,6 +1,8 @@
 .aboutPlace-city__title {
   font-size: 28px;
   font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
   text-align: center;
   margin: 0 auto 35px;
   padding: 0;
@@ -22,6 +24,8 @@
 @media screen and (max-width: 715px) {
   .aboutPlace-city__title {
     max-width: 320px;
+    align-self: center;
+    margin: 0 0 20px;
     font-size: 22px;
   }
 }

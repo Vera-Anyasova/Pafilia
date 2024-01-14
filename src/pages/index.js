@@ -1,8 +1,8 @@
 import "./index.css";
 
 const cardList = document.querySelector("#elements__list");
-const buttonPrev = document.querySelector(".element__prev");
-const buttonNext = document.querySelector(".element__next");
+const buttonPrev = document.querySelector(".elements__prev");
+const buttonNext = document.querySelector(".elements__next");
 const popup = document.querySelector(".popup");
 const buttonOpenPopup = document.querySelector(".header__menu");
 const links = document.querySelectorAll(".popup__link");

@@ -1,6 +1,8 @@
 .advantage__title {
   font-size: 28px;
   font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
   text-align: center;
   margin: 20px 0 60px;
   padding: 0;
@@ -15,6 +17,7 @@
 
 @media screen and (max-width: 715px) {
   .advantage__title {
+    width: 90%;
     margin: 0 auto 30px;
   }
 }

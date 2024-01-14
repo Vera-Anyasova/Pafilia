@@ -1,11 +1,16 @@
 .aboutStudy__title {
-  max-width: 300px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  max-width: 320px;
   margin: 30px 0 20px;
   padding: 0;
 }
 
 @media screen and (max-width: 1184px) {
   .aboutStudy__title {
+    font-size: 32px;
     margin: 20px 0 10px;
   }
 }
@@ -21,6 +26,7 @@
 @media screen and (max-width: 715px) {
   .aboutStudy__title {
     max-width: 90%;
+    font-size: 25px;
     margin: 15px 0 0;
   }
 }

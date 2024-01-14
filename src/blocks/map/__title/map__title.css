@@ -1,12 +1,18 @@
 .map__title {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #1d1d1f;
   max-width: 900px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
   margin: 30px auto 20px;
   padding: 0;
   text-align: center;
 }
 
 @media screen and (max-width: 1184px) {
-  .map_title {
+  .map__title {
     width: 700px;
     font-size: 28px;
     margin-top: 20px;
@@ -26,12 +32,6 @@
     width: 310px;
     font-size: 17px;
     margin-top: 10px;
-    margin-bottom: 15px;
-  }
-}
-
-@media screen and (max-width: 715px) {
-  .map__title {
     margin-bottom: 20px;
   }
 }

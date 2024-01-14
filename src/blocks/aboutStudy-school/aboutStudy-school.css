@@ -1,9 +1,9 @@
-.aboutStudy__school {
+.aboutStudy-school {
   flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 984px) {
-  .aboutStudy__school {
+  .aboutStudy-school {
     flex-direction: column;
   }
 }

@@ -7,6 +7,7 @@
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile-card/profile-card.css);
 @import url(../blocks/aboutProject/aboutProject.css);
+@import url(../blocks/main-text/main-text.css);
 @import url(../blocks/aboutProject-place/aboutProject-place.css);
 @import url(../blocks/advantage/advantage.css);
 @import url(../blocks/aboutPlace/aboutPlace.css);
@@ -18,6 +19,7 @@
 @import url(../blocks/aboutPlace-city/aboutPlace-city.css);
 @import url(../blocks/aboutBeach/aboutBeach.css);
 @import url(../blocks/aboutStudy/aboutStudy.css);
+@import url(../blocks/aboutStudy-school/aboutStudy-school.css);
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/hidden/hidden.css);
 @import url(../blocks/footer/footer.css);
@@ -33,9 +35,6 @@
 @import url(../blocks/profile-card/__place/profile-card__place.css);
 @import url(../blocks/profile-card/__photo/profile-card__photo.css);
 @import url(../blocks/profile-card/__element/profile-card__element.css);
-@import url(../blocks/section/__title/section__title.css);
-@import url(../blocks/section/__subtitle/section__subtitle.css);
-@import url(../blocks/section/__text/section__text.css);
 @import url(../blocks/aboutProject/__item/aboutProject__item.css);
 @import url(../blocks/aboutProject/__title/aboutProject__title.css);
 @import url(../blocks/aboutProject/__text/aboutProject__text.css);
@@ -64,9 +63,10 @@
 @import url(../blocks/map/__card/map__card.css);
 @import url(../blocks/map/__image/map__image.css);
 @import url(../blocks/map/__title/map__title.css);
-@import url(../blocks/element/__prev/element__prev.css);
-@import url(../blocks/element/__next/element__next.css);
-@import url(../blocks/element/__image/element__image.css);
+@import url(../blocks/elements/__list/elements__list.css);
+@import url(../blocks/elements/__image/elements__image.css);
+@import url(../blocks/elements/__next/elements__next.css);
+@import url(../blocks/elements/__prev/elements__prev.css);
 @import url(../blocks/aboutCity/__container/aboutCity__container.css);
 @import url(../blocks/aboutCity/__title/aboutCity__title.css);
 @import url(../blocks/aboutCity/__text/aboutCity__text.css);
@@ -101,7 +101,6 @@
 @import url(../blocks/aboutStudy/__image/aboutStudy__image.css);
 @import url(../blocks/aboutStudy/__image-education/aboutStudy__image-education.css);
 @import url(../blocks/aboutStudy/__image-school/aboutStudy__image-school.css);
-@import url(../blocks/aboutStudy/__school/aboutStudy__school.css);
 @import url(../blocks/aboutStudy/__logo-school/aboutStudy__logo-school.css);
 @import url(../blocks/aboutStudy/__logo-tls/aboutStudy__logo-tls.css);
 @import url(../blocks/footer/__element/footer__element.css);
@@ -114,7 +113,6 @@
 @import url(../blocks/footer/__icon/footer__icon.css);
 @import url(../blocks/footer/__phone/footer__phone.css);
 @import url(../blocks/footer/__email/footer__email.css);
-@import url(../blocks/elements/__list/elements__list.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__button/popup__button.css);
 @import url(../blocks/popup/__menu/popup__menu.css);
