@@ -53,7 +53,7 @@
 /*!**************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPrice/aboutPrice.css ***!
   \**************************************************************************************************************************************************************/
-.aboutPrice{background:url(21a5a7add31332354714.png) no-repeat;background-size:cover;box-sizing:border-box;margin:0 0 30px;padding:20px 0;width:100%}@media screen and (max-width:715px){.aboutPrice{background-position:50%;margin-bottom:20px;padding:10px 0}}
+.aboutPrice{background:url(617619b4abeda34b8be8.jpg) no-repeat;background-size:cover;box-sizing:border-box;margin:0 0 30px;padding:20px 0;width:100%}@media screen and (max-width:715px){.aboutPrice{background-position:50%;margin-bottom:20px;padding:10px 0}}
 /*!**********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/infrastructure/infrastructure.css ***!
   \**********************************************************************************************************************************************************************/
@@ -121,7 +121,7 @@
 /*!***********************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/__photo/profile__photo.css ***!
   \***********************************************************************************************************************************************************************/
-.profile__photo{background:url(ef49eebd77bbdb7b23d2.png) no-repeat 50%/cover;box-sizing:border-box;height:100%;width:100%;z-index:1}
+.profile__photo{background:url(58fcd5ba57d1c18015d5.jpg) no-repeat 50%/cover;box-sizing:border-box;height:100%;width:100%;z-index:1}
 /*!*******************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile/__container/profile__container.css ***!
   \*******************************************************************************************************************************************************************************/
@@ -141,7 +141,7 @@
 /*!*********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile-card/__photo/profile-card__photo.css ***!
   \*********************************************************************************************************************************************************************************/
-.profile-card__photo{background:url(0baf23a2d1b32ad91a1f.png) no-repeat 50%/cover;box-sizing:border-box;height:100%;width:100%;z-index:1}
+.profile-card__photo{background:url(d969d03f58f9004dc064.jpg) no-repeat 50%/cover;box-sizing:border-box;height:100%;width:100%;z-index:1}
 /*!*************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/profile-card/__element/profile-card__element.css ***!
   \*************************************************************************************************************************************************************************************/
@@ -337,7 +337,7 @@
 /*!***************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace-city/__image/aboutPlace-city__image.css ***!
   \***************************************************************************************************************************************************************************************/
-.aboutPlace-city__image{border-radius:2px;box-sizing:border-box;margin:0;max-height:100%;padding:0;transition:.5s;width:19.5%}.aboutPlace-city__photo:last-of-type{margin-right:0}.aboutPlace-city__image:hover{transform:scale(1.15);z-index:10}@media screen and (max-width:1280px){.aboutPlace-city__image{height:300px;max-height:100%}}@media screen and (max-width:984px){.aboutPlace-city__image{height:330px;width:32.5%}.aboutPlace-city__image:nth-of-type(2),.aboutPlace-city__image:nth-of-type(3){display:none}}@media screen and (max-width:715px){.aboutPlace-city__image{border-radius:0;height:auto;margin:0;width:49%}.aboutPlace-city__image:nth-of-type(4){display:none}.aboutPlace-city__image:nth-of-type(5){display:flex}.aboutPlace-city__image:hover{transform:none}}@media screen and (max-width:525px){.aboutPlace-city__image{margin-bottom:15px;width:100%}.aboutPlace-city__image:nth-of-type(4){display:flex}.aboutPlace-city__image:nth-of-type(5){margin-bottom:0}}
+.aboutPlace-city__image{border-radius:2px;box-sizing:border-box;margin:0;max-height:100%;padding:0;transition:.5s;width:19.5%}.aboutPlace-city__photo:last-of-type{margin-right:0}.aboutPlace-city__image:hover{transform:scale(1.15);z-index:10}@media screen and (max-width:1280px){.aboutPlace-city__image{height:300px;max-height:100%}}@media screen and (max-width:984px){.aboutPlace-city__image{height:330px;width:32.5%}.aboutPlace-city__image:hover{transform:none}.aboutPlace-city__image:nth-of-type(2),.aboutPlace-city__image:nth-of-type(3){display:none}}@media screen and (max-width:715px){.aboutPlace-city__image{border-radius:0;height:auto;margin:0;width:49%}.aboutPlace-city__image:nth-of-type(4){display:none}.aboutPlace-city__image:nth-of-type(5){display:flex}.aboutPlace-city__image:hover{transform:none}}@media screen and (max-width:525px){.aboutPlace-city__image{margin-bottom:15px;width:100%}.aboutPlace-city__image:nth-of-type(4){display:flex}.aboutPlace-city__image:nth-of-type(5){margin-bottom:0}}
 /*!*************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/aboutPlace-city/__text/aboutPlace-city__text.css ***!
   \*************************************************************************************************************************************************************************************/
@@ -477,7 +477,7 @@
 /*!*****************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/popup/__link/popup__link.css ***!
   \*****************************************************************************************************************************************************************/
-.popup__link{margin:0;padding-bottom:15px;text-decoration:none}.popup__link:hover{cursor:pointer;opacity:.7}.popup__link:last-of-type{padding-bottom:0}@media screen and (max-width:715px){.popup__menu{padding-bottom:25px}}
+.popup__link{margin:0;padding-bottom:15px;text-decoration:none}.popup__link:hover{cursor:pointer;opacity:.7}.popup__link:last-of-type{padding-bottom:0}@media screen and (max-width:984px){.popup__link{padding-bottom:25px}}
 /*!****************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/blocks/advantage/__element/_one/advantage__element_one.css ***!
   \****************************************************************************************************************************************************************************************/
