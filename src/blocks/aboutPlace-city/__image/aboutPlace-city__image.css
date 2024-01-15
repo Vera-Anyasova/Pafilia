@@ -32,6 +32,12 @@
 }
 
 @media screen and (max-width: 984px) {
+  .aboutPlace-city__image:hover {
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 984px) {
   .aboutPlace-city__image:nth-of-type(2) {
     display: none;
   }
