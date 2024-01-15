@@ -18,3 +18,15 @@
     padding-bottom: 25px;
   }
 }
+
+@media screen and (max-width: 715px) {
+  .popup__link {
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .popup__link {
+    padding-bottom: 25px;
+  }
+}
